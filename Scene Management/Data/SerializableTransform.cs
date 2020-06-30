@@ -8,10 +8,10 @@ namespace SceneManager
 {
 	public struct SerializableTransform
 	{
-		public string transformID;
-		public Vector3 localPosition;
-		public Vector3 localRotation;
-		public Vector3 localScale;
-		public string parentId;
+		public string TransformID { get; set; }
+		public SerializableVector3 LocalPosition { get; set; }
+		public SerializableVector3 LocalRotation { get; set; }
+		public SerializableVector3 LocalScale { get; set; }
+		public string ParentId { get; set; }
 	}
 }

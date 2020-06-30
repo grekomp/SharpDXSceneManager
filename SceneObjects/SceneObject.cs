@@ -28,14 +28,14 @@ namespace SceneManager
 		}
 		public SceneObject(SavedSceneObject savedSceneObject)
 		{
-			Id = savedSceneObject.objectID;
+			Id = savedSceneObject.ObjectID;
 
 			// TODO: Load Model
 
-			material = savedSceneObject.material;
-			transform = new Transform(savedSceneObject.transform);
+			material = savedSceneObject.Material;
+			transform = new Transform(savedSceneObject.Transform);
 
-			foreach (var component in savedSceneObject.components)
+			foreach (var component in savedSceneObject.Components)
 			{
 				AddComponent(component);
 			}
@@ -82,12 +82,12 @@ namespace SceneManager
 		{
 			var serializableObject = new SavedSceneObject();
 
-			serializableObject.objectID = Id;
-			serializableObject.modelPath = model != null ? model.modelPath : "";
-			serializableObject.material = material as SimpleMaterial;
-			serializableObject.transform = transform.GetSerializableTransform();
+			serializableObject.ObjectID = Id;
+			serializableObject.ModelPath = model != null ? model.modelPath : "";
+			serializableObject.Material = material as SimpleMaterial;
+			serializableObject.Transform = transform.GetSerializableTransform();
 
-			serializableObject.components = new List<SceneObjectComponent>(components);
+			serializableObject.Components = new List<SceneObjectComponent>(components);
 
 			return serializableObject;
 		}

@@ -5,10 +5,17 @@ using System.Text;
 
 namespace SceneManager
 {
+	[Serializable]
 	public class SerializableScene
 	{
-		public string sceneName = "Unnamed Scene";
+		public string SceneName { get; set; }
+		public List<SavedSceneObject> SavedSceneObjects { get; set; }
 
-		public List<SavedSceneObject> savedSceneObjects = new List<SavedSceneObject>();
+
+		public SerializableScene()
+		{
+			SceneName = "Unnamed Scene";
+			SavedSceneObjects = new List<SavedSceneObject>();
+		}
 	}
 }

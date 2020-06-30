@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Text.Json.Serialization;
 
 namespace SceneManager
 {
 	public class SceneObjectComponent
 	{
+		[JsonIgnore]
 		public SceneObject SceneObject { get; protected set; }
 
 		public void BindSceneObject(SceneObject sceneObject)

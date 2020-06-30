@@ -7,11 +7,10 @@ namespace SceneManager
 {
 	public class SavedSceneObject
 	{
-		public string objectID;
-		public string modelPath;
-		public SimpleMaterial material;
-		public SerializableTransform transform;
-
-		public List<SceneObjectComponent> components = new List<SceneObjectComponent>();
+		public string ObjectID { get; set; }
+		public string ModelPath { get; set; }
+		public SimpleMaterial Material { get; set; }
+		public SerializableTransform Transform { get; set; }
+		public List<SceneObjectComponent> Components { get; set; }
 	}
 }

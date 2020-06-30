@@ -82,12 +82,18 @@ namespace SceneManager
 		#region Initialization
 		public Transform()
 		{
+			Id = Guid.NewGuid().ToString();
+
 			LocalPosition = Vector3.Zero;
 			LocalRotation = Vector3.Zero;
 			LocalScale = Vector3.One;
 		}
 		public Transform(SerializableTransform serializableTransform)
 		{
+			Id = serializableTransform.TransformID;
+			LocalPosition = serializableTransform.LocalPosition;
+			LocalRotation = serializableTransform.LocalRotation;
+			LocalScale = serializableTransform.LocalScale;
 
 		}
 		#endregion
@@ -97,12 +103,12 @@ namespace SceneManager
 		public SerializableTransform GetSerializableTransform()
 		{
 			SerializableTransform serializableTransform = new SerializableTransform();
-			serializableTransform.transformID = Id;
-			serializableTransform.parentId = parent?.Id;
+			serializableTransform.TransformID = Id;
+			serializableTransform.ParentId = parent?.Id;
 
-			serializableTransform.localPosition = localPosition;
-			serializableTransform.localRotation = localRotation;
-			serializableTransform.localScale = localScale;
+			serializableTransform.LocalPosition = localPosition;
+			serializableTransform.LocalRotation = localRotation;
+			serializableTransform.LocalScale = localScale;
 
 			return serializableTransform;
 		}

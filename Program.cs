@@ -58,7 +58,7 @@ namespace SceneManager
 			SceneObject planet01Root = new SceneObject();
 			planet01Root.AddComponent(new SimpleTransformAnimationComponent()
 			{
-				rotationSpeed = new Vector3(0.5f, 0, 0),
+				RotationSpeed = new Vector3(0.5f, 0, 0),
 			});
 
 			SceneObject planet01 = new SceneObject();
@@ -71,7 +71,7 @@ namespace SceneManager
 			moon01Root.transform.parent = planet01.transform;
 			moon01Root.AddComponent(new SimpleTransformAnimationComponent()
 			{
-				rotationSpeed = new Vector3(2f, 0, 0),
+				RotationSpeed = new Vector3(2f, 0, 0),
 			});
 
 			SceneObject moon01 = new SceneObject();
@@ -84,30 +84,30 @@ namespace SceneManager
 			// Create and setup material
 			SimpleMaterial baseMaterial = new SimpleMaterial
 			{
-				vertexShaderPath = "Shaders.fx",
-				vertexShaderEntryPoint = "VS",
-				vertexShaderProfile = "vs_5_0",
-				pixelShaderPath = "Shaders.fx",
-				pixelShaderEntryPoint = "PS",
-				pixelShaderProfile = "ps_5_0",
+				VertexShaderPath = "Shaders.fx",
+				VertexShaderEntryPoint = "VS",
+				VertexShaderProfile = "vs_5_0",
+				PixelShaderPath = "Shaders.fx",
+				PixelShaderEntryPoint = "PS",
+				PixelShaderProfile = "ps_5_0",
 			};
 			baseMaterial.Initialize(renderer.device);
-			baseMaterial.pixelShaderData.lightPos = new Vector4(0, 0, 0, 1);
-			baseMaterial.pixelShaderData.emissionColor = new Vector4(0.1f, 0.1f, 0.1f, 1);
+			baseMaterial.pixelShaderData.LightPos = new Vector4(0, 0, 0, 1);
+			baseMaterial.pixelShaderData.EmissionColor = new Vector4(0.1f, 0.1f, 0.1f, 1);
 
 
 			// Set material options
 			SimpleMaterial sunMaterial = baseMaterial.CreateInstanceTyped();
-			sunMaterial.pixelShaderData.diffuseColor = new Vector4(0.92f, 0.72f, 0.2f, 1);
-			sunMaterial.pixelShaderData.emissionColor = new Vector4(0.92f, 0.8f, 0.2f, 1);
+			sunMaterial.pixelShaderData.DiffuseColor = new Vector4(0.92f, 0.72f, 0.2f, 1);
+			sunMaterial.pixelShaderData.EmissionColor = new Vector4(0.92f, 0.8f, 0.2f, 1);
 			sunObject.material = sunMaterial;
 
 			SimpleMaterial planet01Material = baseMaterial.CreateInstanceTyped();
-			planet01Material.pixelShaderData.diffuseColor = new Vector4(0.2f, 0.8f, 0.2f, 1);
+			planet01Material.pixelShaderData.DiffuseColor = new Vector4(0.2f, 0.8f, 0.2f, 1);
 			planet01.material = planet01Material;
 
 			SimpleMaterial moon01Material = baseMaterial.CreateInstanceTyped();
-			moon01Material.pixelShaderData.diffuseColor = new Vector4(0.4f, 0.4f, 0.4f, 1);
+			moon01Material.pixelShaderData.DiffuseColor = new Vector4(0.4f, 0.4f, 0.4f, 1);
 			moon01.material = moon01Material;
 
 
@@ -118,6 +118,8 @@ namespace SceneManager
 			camera.fov = (float)Math.PI / 4.0f;
 			camera.aspectRatio = renderer.form.Width / (float)renderer.form.Height;
 
+
+			SceneManager.SaveCurrentHierarchy("");
 
 			// Use clock
 			Time.Start();

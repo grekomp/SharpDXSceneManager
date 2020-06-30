@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 
 namespace SceneManager
 {
@@ -9,14 +10,14 @@ namespace SceneManager
 	{
 		public static void SaveCurrentHierarchy(string savePath)
 		{
-			List<SavedSceneObject> serializableSceneObjects = new List<SavedSceneObject>();
+			SerializableScene serializableScene = new SerializableScene();
 
 			foreach (var sceneObject in Hierarchy.sceneObjects)
 			{
-				serializableSceneObjects.Add(sceneObject.GetSerializableObject());
+				serializableScene.SavedSceneObjects.Add(sceneObject.GetSerializableObject());
 			}
 
-
+			Console.Write(JsonSerializer.Serialize(serializableScene, new JsonSerializerOptions() { WriteIndented = true }));
 		}
 	}
 }

@@ -8,36 +8,55 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Text.Json.Serialization;
 
 namespace SceneManager
 {
 	public class SimpleMaterial : IMaterial
 	{
-		public struct VertexShaderData
+		public struct VertexShaderDataStruct
 		{
-			public Matrix worldViewProj;
-			public Matrix worldView;
-			public Matrix world;
+			private Matrix worldViewProj;
+			private Matrix worldView;
+			private Matrix world;
+
+			[JsonIgnore] public Matrix WorldViewProj { get => worldViewProj; set => worldViewProj = value; }
+			[JsonIgnore] public Matrix WorldView { get => worldView; set => worldView = value; }
+			[JsonIgnore] public Matrix World { get => world; set => world = value; }
 		}
-		public struct PixelShaderData
+		public struct PixelShaderDataStruct
 		{
-			public Vector4 lightPos;
-			public Vector4 diffuseColor;
-			public Vector4 emissionColor;
+			private Vector4 lightPos;
+			private Vector4 diffuseColor;
+			private Vector4 emissionColor;
+
+			public SerializableVector4 LightPos { get => lightPos; set => lightPos = value; }
+			public SerializableVector4 DiffuseColor { get => diffuseColor; set => diffuseColor = value; }
+			public SerializableVector4 EmissionColor { get => emissionColor; set => emissionColor = value; }
 		}
 
 
 		#region Shaders
-		public string vertexShaderPath = "Shaders.fx";
-		public string vertexShaderEntryPoint = "VS";
-		public string vertexShaderProfile = "vs_5_0";
+		private string vertexShaderPath = "Shaders.fx";
+		private string vertexShaderEntryPoint = "VS";
+		private string vertexShaderProfile = "vs_5_0";
 
-		public string pixelShaderPath = "Shaders.fx";
-		public string pixelShaderEntryPoint = "PS";
-		public string pixelShaderProfile = "ps_5_0";
+		private string pixelShaderPath = "Shaders.fx";
+		private string pixelShaderEntryPoint = "PS";
+		private string pixelShaderProfile = "ps_5_0";
+
+		public string VertexShaderPath { get => vertexShaderPath; set => vertexShaderPath = value; }
+		public string VertexShaderEntryPoint { get => vertexShaderEntryPoint; set => vertexShaderEntryPoint = value; }
+		public string VertexShaderProfile { get => vertexShaderProfile; set => vertexShaderProfile = value; }
+		public string PixelShaderPath { get => pixelShaderPath; set => pixelShaderPath = value; }
+		public string PixelShaderEntryPoint { get => pixelShaderEntryPoint; set => pixelShaderEntryPoint = value; }
+		public string PixelShaderProfile { get => pixelShaderProfile; set => pixelShaderProfile = value; }
+
 
 		protected ShaderBytecode vertexShaderByteCode;
+		[JsonIgnore]
 		public ShaderBytecode VertexShaderByteCode => vertexShaderByteCode;
+
 		protected VertexShader vertexShader;
 
 		protected ShaderBytecode pixelShaderByteCode;
@@ -51,8 +70,11 @@ namespace SceneManager
 
 
 		#region Material data
-		public VertexShaderData vertexShaderData;
-		public PixelShaderData pixelShaderData;
+		public VertexShaderDataStruct vertexShaderData;
+		public PixelShaderDataStruct pixelShaderData;
+
+		[JsonIgnore] public VertexShaderDataStruct VertexShaderData { get => vertexShaderData; set => vertexShaderData = value; }
+		public PixelShaderDataStruct PixelShaderData { get => pixelShaderData; set => pixelShaderData = value; }
 		#endregion
 
 
@@ -67,12 +89,12 @@ namespace SceneManager
 		public SimpleMaterial CreateInstanceTyped()
 		{
 			SimpleMaterial copy = new SimpleMaterial();
-			copy.vertexShaderPath = vertexShaderPath;
-			copy.vertexShaderEntryPoint = vertexShaderEntryPoint;
-			copy.vertexShaderProfile = vertexShaderProfile;
-			copy.pixelShaderPath = pixelShaderPath;
-			copy.pixelShaderEntryPoint = pixelShaderEntryPoint;
-			copy.pixelShaderProfile = pixelShaderProfile;
+			copy.VertexShaderPath = VertexShaderPath;
+			copy.VertexShaderEntryPoint = VertexShaderEntryPoint;
+			copy.VertexShaderProfile = VertexShaderProfile;
+			copy.PixelShaderPath = PixelShaderPath;
+			copy.PixelShaderEntryPoint = PixelShaderEntryPoint;
+			copy.PixelShaderProfile = PixelShaderProfile;
 
 			copy.vertexShaderData = vertexShaderData;
 			copy.pixelShaderData = pixelShaderData;
@@ -94,16 +116,16 @@ namespace SceneManager
 
 		protected void CompileShaders(Device device)
 		{
-			vertexShaderByteCode = ShaderBytecode.CompileFromFile(vertexShaderPath, vertexShaderEntryPoint, vertexShaderProfile);
+			vertexShaderByteCode = ShaderBytecode.CompileFromFile(VertexShaderPath, VertexShaderEntryPoint, VertexShaderProfile);
 			vertexShader = new VertexShader(device, vertexShaderByteCode);
 
-			pixelShaderByteCode = ShaderBytecode.CompileFromFile(pixelShaderPath, pixelShaderEntryPoint, pixelShaderProfile);
+			pixelShaderByteCode = ShaderBytecode.CompileFromFile(PixelShaderPath, PixelShaderEntryPoint, PixelShaderProfile);
 			pixelShader = new PixelShader(device, pixelShaderByteCode);
 		}
 		protected void CreateConstantBuffers(Device device)
 		{
-			vertexConstantBuffer = new Buffer(device, Utilities.SizeOf<VertexShaderData>(), ResourceUsage.Default, BindFlags.ConstantBuffer, CpuAccessFlags.None, ResourceOptionFlags.None, 0);
-			pixelConstantBuffer = new Buffer(device, Utilities.SizeOf<PixelShaderData>(), ResourceUsage.Default, BindFlags.ConstantBuffer, CpuAccessFlags.None, ResourceOptionFlags.None, 1);
+			vertexConstantBuffer = new Buffer(device, Utilities.SizeOf<VertexShaderDataStruct>(), ResourceUsage.Default, BindFlags.ConstantBuffer, CpuAccessFlags.None, ResourceOptionFlags.None, 0);
+			pixelConstantBuffer = new Buffer(device, Utilities.SizeOf<PixelShaderDataStruct>(), ResourceUsage.Default, BindFlags.ConstantBuffer, CpuAccessFlags.None, ResourceOptionFlags.None, 1);
 		}
 		#endregion
 
@@ -135,13 +157,13 @@ namespace SceneManager
 
 		protected void SetMatrices(Matrix world, Matrix view, Matrix projection)
 		{
-			vertexShaderData.world = world;
-			vertexShaderData.worldView = world * view;
-			vertexShaderData.worldViewProj = vertexShaderData.worldView * projection;
+			vertexShaderData.World = world;
+			vertexShaderData.WorldView = world * view;
+			vertexShaderData.WorldViewProj = vertexShaderData.WorldView * projection;
 
-			vertexShaderData.world.Transpose();
-			vertexShaderData.worldView.Transpose();
-			vertexShaderData.worldViewProj.Transpose();
+			vertexShaderData.World.Transpose();
+			vertexShaderData.WorldView.Transpose();
+			vertexShaderData.WorldViewProj.Transpose();
 		}
 		#endregion
 
