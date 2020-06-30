@@ -1,5 +1,7 @@
-﻿using SharpDX;
+﻿using AssimpWrapper;
+using SharpDX;
 using SharpDX.D3DCompiler;
+using SharpDX.Direct3D11;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,8 +32,7 @@ namespace SceneManager
 		{
 			Id = savedSceneObject.ObjectID;
 
-			// TODO: Load Model
-
+			if (string.IsNullOrEmpty(savedSceneObject.ModelPath) == false) model = new ModelLoader(SceneManager.currentRenderer.device).LoadRelative(savedSceneObject.ModelPath);
 			material = savedSceneObject.Material;
 			transform = new Transform(savedSceneObject.Transform);
 
@@ -70,7 +71,6 @@ namespace SceneManager
 		{
 			if (model != null && material != null)
 			{
-				model.SetInputLayout(renderer.device, ShaderSignature.GetInputSignature(material.VertexShaderByteCode));
 				material.Render(this, camera, renderer);
 			}
 		}

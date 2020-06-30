@@ -50,8 +50,7 @@ namespace SceneManager
 
 
 		protected ShaderBytecode vertexShaderByteCode;
-		[JsonIgnore]
-		public ShaderBytecode VertexShaderByteCode => vertexShaderByteCode;
+		[JsonIgnore] public ShaderBytecode VertexShaderByteCode => vertexShaderByteCode;
 
 		protected VertexShader vertexShader;
 
@@ -138,6 +137,8 @@ namespace SceneManager
 			{
 				Initialize(renderer.device);
 			}
+
+			model.SetInputLayout(renderer.device, ShaderSignature.GetInputSignature(VertexShaderByteCode));
 
 			SetMatrices(transformMatrix, camera.ViewMatrix, camera.ProjMatrix);
 

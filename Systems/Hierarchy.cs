@@ -57,6 +57,16 @@ namespace SceneManager
 
 			objectsScheduledForDeletion.Clear();
 		}
+
+		public static void Dispose()
+		{
+			foreach (var sceneObject in sceneObjects)
+			{
+				sceneObject.Dispose();
+			}
+
+			sceneObjects.Clear();
+		}
 		#endregion
 
 
