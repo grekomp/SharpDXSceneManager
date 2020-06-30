@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC357267-00C9-4CFF-A786-49FD24FFFBC2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SceneManager</RootNamespace>
+    <AssemblyName>SceneManager</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AssimpNet">
+      <HintPath>.\AssimpNet.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX">
+      <HintPath>..\..\..\Bin\Standard-net20\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.D3DCompiler">
+      <HintPath>..\..\..\Bin\Standard-net20\SharpDX.D3DCompiler.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D11">
+      <HintPath>..\..\..\Bin\Standard-net20\SharpDX.Direct3D11.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DXGI">
+      <HintPath>..\..\..\Bin\Standard-net20\SharpDX.DXGI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Rendering\Camera.cs" />
+    <Compile Include="Components\SimpleTransformAnimationComponent.cs" />
+    <Compile Include="Rendering\Materials\SimpleMaterial.cs" />
+    <Compile Include="Rendering\Materials\IMaterial.cs" />
+    <Compile Include="Loading Meshes\Model.cs" />
+    <Compile Include="Loading Meshes\ModelLoader.cs" />
+    <Compile Include="Loading Meshes\ModelMesh.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rendering\Renderer.cs" />
+    <Compile Include="Scene Management\Data\SavedSceneObject.cs" />
+    <Compile Include="Scene Management\Data\SerializableScene.cs" />
+    <Compile Include="Scene Management\SceneManager.cs" />
+    <Compile Include="Scene Management\Data\SerializableTransform.cs" />
+    <Compile Include="SceneObjects\SceneObject.cs" />
+    <Compile Include="SceneObjects\SceneObjectComponent.cs" />
+    <Compile Include="SceneObjects\Transform.cs" />
+    <Compile Include="Systems\Hierarchy.cs" />
+    <Compile Include="Systems\Time.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\sponza\00_skap.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sponza\01_STUB.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sponza\01_St_kp.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sponza\01_S_ba.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sponza\01_S_kap.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sponza\KAMEN-stup.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sponza\KAMEN.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sponza\prozor1.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sponza\reljef.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sponza\sky.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sponza\sp_luk.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sponza\vrata_ko.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sponza\vrata_kr.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sponza\x01_st.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assimp32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assimp64.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Shaders.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Assets\Planets\sphere.mtl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Assets\Planets\sphere.obj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Assets\sponza\sponza.3DS">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="dragon.obj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
