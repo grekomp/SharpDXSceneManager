@@ -16,19 +16,15 @@ namespace SceneManager
 	{
 		public struct VertexShaderDataStruct
 		{
-			private Matrix worldViewProj;
-			private Matrix worldView;
-			private Matrix world;
-
-			[JsonIgnore] public Matrix WorldViewProj { get => worldViewProj; set => worldViewProj = value; }
-			[JsonIgnore] public Matrix WorldView { get => worldView; set => worldView = value; }
-			[JsonIgnore] public Matrix World { get => world; set => world = value; }
+			public Matrix worldViewProj;
+			public Matrix worldView;
+			public Matrix world;
 		}
 		public struct PixelShaderDataStruct
 		{
-			private Vector4 lightPos;
-			private Vector4 diffuseColor;
-			private Vector4 emissionColor;
+			public Vector4 lightPos;
+			public Vector4 diffuseColor;
+			public Vector4 emissionColor;
 
 			public SerializableVector4 LightPos { get => lightPos; set => lightPos = value; }
 			public SerializableVector4 DiffuseColor { get => diffuseColor; set => diffuseColor = value; }
@@ -79,6 +75,28 @@ namespace SceneManager
 
 
 		#region Initialization
+		public void Initialize(Device device)
+		{
+			this.device = device;
+			CompileShaders(device);
+			CreateConstantBuffers(device);
+		}
+
+		protected void CompileShaders(Device device)
+		{
+			vertexShaderByteCode = ShaderBytecode.CompileFromFile(VertexShaderPath, VertexShaderEntryPoint, VertexShaderProfile);
+			vertexShader = new VertexShader(device, vertexShaderByteCode);
+
+			pixelShaderByteCode = ShaderBytecode.CompileFromFile(PixelShaderPath, PixelShaderEntryPoint, PixelShaderProfile);
+			pixelShader = new PixelShader(device, pixelShaderByteCode);
+		}
+		protected void CreateConstantBuffers(Device device)
+		{
+			vertexConstantBuffer = new Buffer(device, Utilities.SizeOf<VertexShaderDataStruct>(), ResourceUsage.Default, BindFlags.ConstantBuffer, CpuAccessFlags.None, ResourceOptionFlags.None, 0);
+			pixelConstantBuffer = new Buffer(device, Utilities.SizeOf<PixelShaderDataStruct>(), ResourceUsage.Default, BindFlags.ConstantBuffer, CpuAccessFlags.None, ResourceOptionFlags.None, 1);
+		}
+
+
 		/// <summary>
 		/// Creates a copy of the material with matching parameters
 		/// </summary>
@@ -105,27 +123,6 @@ namespace SceneManager
 			}
 
 			return copy;
-		}
-
-		public void Initialize(Device device)
-		{
-			this.device = device;
-			CompileShaders(device);
-			CreateConstantBuffers(device);
-		}
-
-		protected void CompileShaders(Device device)
-		{
-			vertexShaderByteCode = ShaderBytecode.CompileFromFile(VertexShaderPath, VertexShaderEntryPoint, VertexShaderProfile);
-			vertexShader = new VertexShader(device, vertexShaderByteCode);
-
-			pixelShaderByteCode = ShaderBytecode.CompileFromFile(PixelShaderPath, PixelShaderEntryPoint, PixelShaderProfile);
-			pixelShader = new PixelShader(device, pixelShaderByteCode);
-		}
-		protected void CreateConstantBuffers(Device device)
-		{
-			vertexConstantBuffer = new Buffer(device, Utilities.SizeOf<VertexShaderDataStruct>(), ResourceUsage.Default, BindFlags.ConstantBuffer, CpuAccessFlags.None, ResourceOptionFlags.None, 0);
-			pixelConstantBuffer = new Buffer(device, Utilities.SizeOf<PixelShaderDataStruct>(), ResourceUsage.Default, BindFlags.ConstantBuffer, CpuAccessFlags.None, ResourceOptionFlags.None, 1);
 		}
 		#endregion
 
@@ -157,13 +154,13 @@ namespace SceneManager
 
 		protected void SetMatrices(Matrix world, Matrix view, Matrix projection)
 		{
-			vertexShaderData.World = world;
-			vertexShaderData.WorldView = world * view;
-			vertexShaderData.WorldViewProj = vertexShaderData.WorldView * projection;
+			vertexShaderData.world = world;
+			vertexShaderData.worldView = world * view;
+			vertexShaderData.worldViewProj = vertexShaderData.worldView * projection;
 
-			vertexShaderData.World.Transpose();
-			vertexShaderData.WorldView.Transpose();
-			vertexShaderData.WorldViewProj.Transpose();
+			vertexShaderData.world.Transpose();
+			vertexShaderData.worldView.Transpose();
+			vertexShaderData.worldViewProj.Transpose();
 		}
 		#endregion
 
