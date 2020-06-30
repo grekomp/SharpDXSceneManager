@@ -11,6 +11,8 @@ namespace SceneManager
 		public string ModelPath { get; set; }
 		public SimpleMaterial Material { get; set; }
 		public SerializableTransform Transform { get; set; }
+
+		public SimpleTransformAnimationComponent AnimationComponent { get; set; }
 		public List<SceneObjectComponent> Components { get; set; }
 	}
 }

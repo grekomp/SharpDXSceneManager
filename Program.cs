@@ -42,93 +42,14 @@ namespace SceneManager
 		[STAThread]
 		private static void Main()
 		{
-			float speed = 100f;
-			float orbitDistanceMultiplier = 1.5f;
-			float planetScaleMultiplier = 0.2f;
-
 			// Create Renderer
 			Renderer renderer = new Renderer("SharpDX - SceneManager", 1280, 720, 60);
 
-			SceneManager.LoadAndReplaceHierarchyRelative("Earth and moon.json", renderer);
+			SceneManager.LoadAndReplaceHierarchyRelative("Solar system.json", renderer);
+			//SceneManager.LoadAndReplaceHierarchyRelative("Earth and moon.json", renderer);
 
-			//// Create and setup material
-			//SimpleMaterial baseMaterial = new SimpleMaterial
-			//{
-			//	VertexShaderPath = "Shaders.fx",
-			//	VertexShaderEntryPoint = "VS",
-			//	VertexShaderProfile = "vs_5_0",
-			//	PixelShaderPath = "Shaders.fx",
-			//	PixelShaderEntryPoint = "PS",
-			//	PixelShaderProfile = "ps_5_0",
-			//};
-			//baseMaterial.Initialize(renderer.device);
-			//baseMaterial.pixelShaderData.LightPos = new Vector4(0, 0, 0, 1);
-			//baseMaterial.pixelShaderData.EmissionColor = new Vector4(0.1f, 0.1f, 0.1f, 1);
-
-
-			//// Load model
-			//ModelLoader modelLoader = new ModelLoader(renderer.device);
-			//Model sphere = modelLoader.LoadRelative("Assets\\Planets\\sphere.obj");
-
-			//// Create scene objects
-
-			//// Sun
-			//SceneObject sunObject = new SceneObject();
-			//sunObject.model = sphere;
-			//SimpleMaterial sunMaterial = baseMaterial.CreateInstanceTyped();
-			//sunMaterial.pixelShaderData.DiffuseColor = new Vector4(0.92f, 0.72f, 0.2f, 1);
-			//sunMaterial.pixelShaderData.EmissionColor = new Vector4(0.92f, 0.8f, 0.2f, 1);
-			//sunObject.material = sunMaterial;
-
-			//// Mercury
-			//SceneObject mercuryRoot = new SceneObject();
-			//mercuryRoot.AddComponent(new SimpleTransformAnimationComponent()
-			//{
-			//	RotationSpeed = new Vector3(4f * speed, 0, 0),
-			//});
-			//SceneObject mercury = new SceneObject();
-			//mercury.model = sphere;
-			//mercury.transform.LocalPositionX = 0.36f * orbitDistanceMultiplier;
-			//mercury.transform.LocalScale = Vector3.One * 0.38f * planetScaleMultiplier;
-			//mercury.transform.parent = mercuryRoot.transform;
-			//SimpleMaterial mercuryMaterial = baseMaterial.CreateInstanceTyped();
-			//mercuryMaterial.pixelShaderData.DiffuseColor = new Vector4(0.7f, 0.6f, 0.5f, 1);
-			//mercury.material = mercuryMaterial;
-
-			//// Venus
-			//SceneObject venusRoot = new SceneObject();
-			//venusRoot.AddComponent(new SimpleTransformAnimationComponent()
-			//{
-			//	RotationSpeed = new Vector3(1.3f * speed, 0, 0),
-			//});
-			//SceneObject venus = new SceneObject();
-			//venus.model = sphere;
-			//venus.transform.LocalPositionX = 0.67f * orbitDistanceMultiplier;
-			//venus.transform.LocalScale = Vector3.One * 0.95f * planetScaleMultiplier;
-			//venus.transform.parent = venusRoot.transform;
-			//SimpleMaterial venusMaterial = baseMaterial.CreateInstanceTyped();
-			//venusMaterial.pixelShaderData.DiffuseColor = new Vector4(0.96f, 0.48f, 0.04f, 1);
-			//venus.material = venusMaterial;
-
-			//// Earth + Moon
-			//var earth = CreatePlanet(1f * speed, 0.93f * orbitDistanceMultiplier, 1f * planetScaleMultiplier, baseMaterial, new Vector4(0.2f, 0.2f, 0.8f, 1), sphere);
-			//CreatePlanet(1 / 0.1f * speed, 1f * orbitDistanceMultiplier, 0.8f * planetScaleMultiplier, baseMaterial, new Vector4(0.4f, 0.4f, 0.4f, 1), sphere, earth.transform);
-
-			//// Mars
-			//CreatePlanet(0.45f * speed, 1.41f * orbitDistanceMultiplier, 0.53f * planetScaleMultiplier, baseMaterial, new Vector4(0.73f, 0.13f, 0.04f, 1), sphere);
-
-			//// Jupiter
-			//CreatePlanet(1 / 11.9f * speed, 2.6f * orbitDistanceMultiplier, 11.12f * planetScaleMultiplier, baseMaterial, new Vector4(0.77f, 0.66f, 0.45f, 1), sphere);
-
-			//// Saturn
-			//CreatePlanet(1 / 29.5f * speed, 3.7f * orbitDistanceMultiplier, 9.45f * planetScaleMultiplier, baseMaterial, new Vector4(0.68f, 0.54f, 0.36f, 1), sphere);
-
-			//// Uranus
-			//CreatePlanet(1 / 84f * speed, 4.4f * orbitDistanceMultiplier, 4.00f * planetScaleMultiplier, baseMaterial, new Vector4(0.55f, 0.83f, 0.97f, 1), sphere);
-
-			//// Neptune
-			//CreatePlanet(1 / 165f * speed, 5.2f * orbitDistanceMultiplier, 3.88f * planetScaleMultiplier, baseMaterial, new Vector4(0.38f, 0.50f, 0.83f, 1), sphere);
-
+			//CreateSolarSystemScene(10f, 1.5f, 0.2f, renderer);
+			//CreateEarthAndMoonScene(0.1f, 1f, 3f, renderer);
 
 			// Create camera
 			Camera camera = new Camera();
@@ -157,6 +78,8 @@ namespace SceneManager
 					if ((int)Time.Elapsed % 8 >= 4)
 					{
 						isOnFirstScene = false;
+
+						SceneManager.SaveCurrentHierarchyRelative("Solar system.json");
 						SceneManager.LoadAndReplaceHierarchyRelative("Earth and moon.json", renderer);
 					}
 				}
@@ -165,6 +88,8 @@ namespace SceneManager
 					if ((int)Time.Elapsed % 8 < 4)
 					{
 						isOnFirstScene = true;
+
+						SceneManager.SaveCurrentHierarchyRelative("Earth and moon.json");
 						SceneManager.LoadAndReplaceHierarchyRelative("Solar system.json", renderer);
 					}
 				}
@@ -187,19 +112,105 @@ namespace SceneManager
 
 
 			//SceneManager.SaveCurrentHierarchyRelative("Solar system.json");
+			//SceneManager.SaveCurrentHierarchyRelative("Earth and moon.json");
 
 			//// Release all resources
 			renderer.Dispose();
 			Hierarchy.Dispose();
 		}
 
+		private static void CreateSolarSystemScene(float speed, float orbitDistanceMultiplier, float planetScaleMultiplier, Renderer renderer)
+		{
+			// Create and setup material
+			SimpleMaterial baseMaterial = new SimpleMaterial
+			{
+				VertexShaderPath = "Shaders.fx",
+				VertexShaderEntryPoint = "VS",
+				VertexShaderProfile = "vs_5_0",
+				PixelShaderPath = "Shaders.fx",
+				PixelShaderEntryPoint = "PS",
+				PixelShaderProfile = "ps_5_0",
+			};
+			baseMaterial.Initialize(renderer.device);
+			baseMaterial.pixelShaderData.LightPos = new Vector4(0, 0, 0, 1);
+			baseMaterial.pixelShaderData.EmissionColor = new Vector4(0.1f, 0.1f, 0.1f, 1);
+
+
+			// Load model
+			ModelLoader modelLoader = new ModelLoader(renderer.device);
+			Model sphere = modelLoader.LoadRelative("Assets\\Planets\\sphere.obj");
+
+			// Create scene objects
+
+			// Sun
+			SceneObject sunObject = new SceneObject();
+			sunObject.model = sphere;
+			SimpleMaterial sunMaterial = baseMaterial.CreateInstanceTyped();
+			sunMaterial.pixelShaderData.DiffuseColor = new Vector4(0.92f, 0.72f, 0.2f, 1);
+			sunMaterial.pixelShaderData.EmissionColor = new Vector4(0.92f, 0.8f, 0.2f, 1);
+			sunObject.material = sunMaterial;
+
+			// Mercury
+			CreatePlanet(4f * speed, 0.36f * orbitDistanceMultiplier, 0.38f * planetScaleMultiplier, baseMaterial, new Vector4(0.7f, 0.6f, 0.5f, 1), sphere);
+
+			// Venus
+			CreatePlanet(1.3f * speed, 0.67f * orbitDistanceMultiplier, 0.95f * planetScaleMultiplier, baseMaterial, new Vector4(0.96f, 0.48f, 0.04f, 1), sphere);
+
+			// Earth + Moon
+			var earth = CreatePlanet(1f * speed, 0.93f * orbitDistanceMultiplier, 1f * planetScaleMultiplier, baseMaterial, new Vector4(0.2f, 0.2f, 0.8f, 1), sphere);
+			CreatePlanet(1 / 0.1f * speed, 1f * orbitDistanceMultiplier, 0.8f * planetScaleMultiplier, baseMaterial, new Vector4(0.4f, 0.4f, 0.4f, 1), sphere, earth.transform);
+
+			// Mars
+			CreatePlanet(0.45f * speed, 1.41f * orbitDistanceMultiplier, 0.53f * planetScaleMultiplier, baseMaterial, new Vector4(0.73f, 0.13f, 0.04f, 1), sphere);
+
+			// Jupiter
+			CreatePlanet(1 / 11.9f * speed, 2.6f * orbitDistanceMultiplier, 11.12f * planetScaleMultiplier, baseMaterial, new Vector4(0.77f, 0.66f, 0.45f, 1), sphere);
+
+			// Saturn
+			CreatePlanet(1 / 29.5f * speed, 3.7f * orbitDistanceMultiplier, 9.45f * planetScaleMultiplier, baseMaterial, new Vector4(0.68f, 0.54f, 0.36f, 1), sphere);
+
+			// Uranus
+			CreatePlanet(1 / 84f * speed, 4.4f * orbitDistanceMultiplier, 4.00f * planetScaleMultiplier, baseMaterial, new Vector4(0.55f, 0.83f, 0.97f, 1), sphere);
+
+			// Neptune
+			CreatePlanet(1 / 165f * speed, 5.2f * orbitDistanceMultiplier, 3.88f * planetScaleMultiplier, baseMaterial, new Vector4(0.38f, 0.50f, 0.83f, 1), sphere);
+		}
+
+		private static void CreateEarthAndMoonScene(float speed, float orbitDistanceMultiplier, float planetScaleMultiplier, Renderer renderer)
+		{
+			// Create and setup material
+			SimpleMaterial baseMaterial = new SimpleMaterial
+			{
+				VertexShaderPath = "Shaders.fx",
+				VertexShaderEntryPoint = "VS",
+				VertexShaderProfile = "vs_5_0",
+				PixelShaderPath = "Shaders.fx",
+				PixelShaderEntryPoint = "PS",
+				PixelShaderProfile = "ps_5_0",
+			};
+			baseMaterial.Initialize(renderer.device);
+			baseMaterial.pixelShaderData.LightPos = new Vector4(5, 3, 5, 1);
+			baseMaterial.pixelShaderData.EmissionColor = new Vector4(0.1f, 0.1f, 0.1f, 1);
+
+
+			// Load model
+			ModelLoader modelLoader = new ModelLoader(renderer.device);
+			Model sphere = modelLoader.LoadRelative("Assets\\Planets\\sphere.obj");
+
+			// Create scene objects
+			var earth = CreatePlanet(0f * speed, 0f * orbitDistanceMultiplier, 1f * planetScaleMultiplier, baseMaterial, new Vector4(0.2f, 0.2f, 0.8f, 1), sphere);
+			CreatePlanet(1 / 0.1f * speed, 1f * orbitDistanceMultiplier, 0.4f, baseMaterial, new Vector4(0.4f, 0.4f, 0.4f, 1), sphere, earth.transform);
+		}
+
 		private static SceneObject CreatePlanet(float orbitRotationSpeed, float orbitDistance, float planetScale, SimpleMaterial baseMaterial, Vector4 planetColor, Model model, Transform parentTransform = null)
 		{
 			SceneObject planetRoot = new SceneObject();
-			planetRoot.AddComponent(new SimpleTransformAnimationComponent()
+			SimpleTransformAnimationComponent animationComponent = new SimpleTransformAnimationComponent()
 			{
 				RotationSpeed = new Vector3(orbitRotationSpeed, 0, 0),
-			});
+			};
+			planetRoot.AddComponent(animationComponent);
+			planetRoot.animationComponent = animationComponent;
 			planetRoot.transform.parent = parentTransform;
 			SceneObject planet = new SceneObject();
 			planet.model = model;

@@ -19,6 +19,7 @@ namespace SceneManager
 		public IMaterial material;
 		public Transform transform = new Transform();
 
+		public SimpleTransformAnimationComponent animationComponent;
 		public List<SceneObjectComponent> components = new List<SceneObjectComponent>();
 
 
@@ -35,6 +36,9 @@ namespace SceneManager
 			if (string.IsNullOrEmpty(savedSceneObject.ModelPath) == false) model = new ModelLoader(SceneManager.currentRenderer.device).LoadRelative(savedSceneObject.ModelPath);
 			material = savedSceneObject.Material;
 			transform = new Transform(savedSceneObject.Transform);
+
+			animationComponent = savedSceneObject.AnimationComponent;
+			if (animationComponent != null) AddComponent(animationComponent);
 
 			foreach (var component in savedSceneObject.Components)
 			{
@@ -87,6 +91,7 @@ namespace SceneManager
 			serializableObject.Material = material as SimpleMaterial;
 			serializableObject.Transform = transform.GetSerializableTransform();
 
+			serializableObject.AnimationComponent = animationComponent;
 			serializableObject.Components = new List<SceneObjectComponent>(components);
 
 			return serializableObject;
