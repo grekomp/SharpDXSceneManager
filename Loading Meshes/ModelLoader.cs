@@ -16,6 +16,9 @@ using Buffer = SharpDX.Direct3D11.Buffer;
 
 namespace AssimpWrapper
 {
+	/// <summary>
+	/// A wrapper for the Assimp asset importer that allows loading of many different 3d file types.
+	/// </summary>
 	class ModelLoader
 	{
 		Device m_device;

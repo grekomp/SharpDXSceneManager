@@ -13,6 +13,9 @@ using Device = SharpDX.Direct3D11.Device;
 
 namespace SceneManager
 {
+	/// <summary>
+	/// A container for mesh data used within a model.
+	/// </summary>
 	public class ModelMesh
 	{
 		InputElement[] m_inputElements;

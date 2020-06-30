@@ -20,6 +20,9 @@ namespace SceneManager
 			}
 		}
 
+		/// <summary>
+		/// Called every frame before any rendering.
+		/// </summary>
 		public virtual void Update()
 		{
 			if (SceneObject == null)

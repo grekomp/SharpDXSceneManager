@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SceneManager.SimpleTransformAnimationComponent">
+    <Position X="0.5" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAABAAAAAQAA=</HashCode>
+      <FileName>Components\SimpleTransformAnimationComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager.Model" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAICAgACABAEQABBAAAAAAAAAAABAIAAQAAgA=</HashCode>
+      <FileName>Loading Meshes\Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager.ModelMesh" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hCACAAAQACAAEEAAgAAQEAEgEQAEAAAAAAAACgAQEwA=</HashCode>
+      <FileName>Loading Meshes\ModelMesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager.Program" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAABQAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager.Camera" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAYAAAgAAAAABIAAAAAAgAACAAAAAA=</HashCode>
+      <FileName>Rendering\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager.SimpleMaterial" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="SceneManager.SimpleMaterial.VertexShaderDataStruct" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rendering\Materials\SimpleMaterial.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="SceneManager.SimpleMaterial.PixelShaderDataStruct" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rendering\Materials\SimpleMaterial.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgABAEHQKQDAUCAFgAAQAQECAACBAAADBAgAAAAAAA=</HashCode>
+      <FileName>Rendering\Materials\SimpleMaterial.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.117" Collapsed="true" />
+  </Class>
+  <Class Name="SceneManager.Renderer" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAQQCACAgAAAAAAQAAAAAAAAAAAAAAkECAAAAAAA=</HashCode>
+      <FileName>Rendering\Renderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager.SavedSceneObject" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAIAEQAAAAAQAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Scene Management\Data\SavedSceneObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager.SerializableScene" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Scene Management\Data\SerializableScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager.SceneManager" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACIAAAAAAAAAAAQAAAAAAQAACAEAgAAA=</HashCode>
+      <FileName>Scene Management\SceneManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager.SceneObject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAACAIIAAAAACAABAAAAAEAAABABAAAABIAAA=</HashCode>
+      <FileName>SceneObjects\SceneObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SceneManager.SceneObjectComponent">
+    <Position X="1" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SceneObjects\SceneObjectComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager.Transform" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIiAAACAhAAAADAAAAAABCAAAoQAAEIIBDBAAAAAEA=</HashCode>
+      <FileName>SceneObjects\Transform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager.Hierarchy" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAYAAAAAQCAiAAIAAAAABAAAAAABAAAAABACAAAAAAA=</HashCode>
+      <FileName>Systems\Hierarchy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager.Time" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAACEABQABAAQAAAAIIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Systems\Time.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssimpWrapper.ModelLoader" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAgAACAAAAAAAAIAAIAQgACAAAAAAAgAAACAAAAAA=</HashCode>
+      <FileName>Loading Meshes\ModelLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SceneManager.SerializableTransform" Collapsed="true">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACAAAAAAAAAAAAAAAAAAAQAAgAAgAAAAAAAAA=</HashCode>
+      <FileName>Scene Management\Data\SerializableTransform.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SceneManager.SerializableVector3" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAAAAAYAE=</HashCode>
+      <FileName>Scene Management\Data\SerializableVector3.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SceneManager.SerializableVector4" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAACAAAAAAAAAAAAIYAE=</HashCode>
+      <FileName>Scene Management\Data\SerializableVector4.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="SceneManager.IMaterial" Collapsed="true">
+    <Position X="4.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Rendering\Materials\IMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

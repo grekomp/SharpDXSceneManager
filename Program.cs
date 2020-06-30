@@ -95,8 +95,7 @@ namespace SceneManager
 				}
 
 				// Clear views
-				renderer.ClearDepthStencilView();
-				renderer.ClearRenderTargetView();
+				renderer.ClearViews();
 
 
 				// Update objects

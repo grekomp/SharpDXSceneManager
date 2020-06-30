@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title=" to SerializableVector3 conversion" Url="html/fdffb40c-0ac3-f7be-b902-f2eb536d16a8.htm" />
+  <HelpKINode Title=" to SerializableVector4 conversion" Url="html/6b174f8f-1b08-188f-1e74-40c8ddeee1f1.htm" />
+  <HelpKINode Title="AABoxCentre property" Url="html/778c5ad6-b10d-cc72-6bd0-131e5595ec94.htm" />
+  <HelpKINode Title="AABoxMax property" Url="html/00ff8a36-1dc5-04ce-8f17-7e7fc9ec1121.htm" />
+  <HelpKINode Title="AABoxMin property" Url="html/8141d0ed-eb1d-f453-4b3c-c83a4c77f607.htm" />
+  <HelpKINode Title="Add method" Url="html/fbd2f580-b876-d808-332c-2494f13483a2.htm" />
+  <HelpKINode Title="AddComponent method" Url="html/4628fc72-9dcd-b6e6-4d50-737a6c2b70c7.htm" />
+  <HelpKINode Title="AddMesh method" Url="html/bcbd8751-cf29-57c7-d993-5d3ddbc20d3c.htm" />
+  <HelpKINode Title="AddTextureDiffuse method" Url="html/f8db803e-16e8-a57d-d385-31c50b50e295.htm" />
+  <HelpKINode Title="animationComponent field" Url="html/0e83a87e-7d0d-75e1-c2c7-672d6819d8f4.htm" />
+  <HelpKINode Title="AnimationComponent property" Url="html/d94fd950-69bd-8ed8-d7ef-583c161f0274.htm" />
+  <HelpKINode Title="aspectRatio field" Url="html/c9a40573-72a5-dd59-639c-57e879340429.htm" />
+  <HelpKINode Title="backBuffer field" Url="html/8e287277-b076-0139-313f-c1d7cced8b9f.htm" />
+  <HelpKINode Title="basePath field" Url="html/d5ac00eb-ed02-e6e2-fcdf-25ecf78cf92d.htm" />
+  <HelpKINode Title="BindSceneObject method" Url="html/0714920b-a897-48df-a034-e310b8aa621e.htm" />
+  <HelpKINode Title="Camera class">
+    <HelpKINode Title="Camera Class" Url="html/bd038d03-2ff1-0540-c6aa-40edd14d8d1c.htm" />
+    <HelpKINode Title="constructor" Url="html/20146169-595c-886b-5ad1-d68a4fea7430.htm" />
+    <HelpKINode Title="fields" Url="html/cc04de14-d438-5cfb-abcb-a4978a3bcfea.htm" />
+    <HelpKINode Title="methods" Url="html/9d110f73-04ab-c9d6-e37d-ae91b13b0c87.htm" />
+    <HelpKINode Title="properties" Url="html/edcf5069-1952-0995-1151-857a1ba18535.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Camera.aspectRatio field" Url="html/c9a40573-72a5-dd59-639c-57e879340429.htm" />
+  <HelpKINode Title="Camera.Camera constructor" Url="html/20146169-595c-886b-5ad1-d68a4fea7430.htm" />
+  <HelpKINode Title="Camera.cameraLookAt field" Url="html/466f4531-ce29-3784-c6c8-4f64e8b7871b.htm" />
+  <HelpKINode Title="Camera.cameraPosition field" Url="html/bcb60bd1-eff5-6f3b-5ba6-1b8b4e56a40f.htm" />
+  <HelpKINode Title="Camera.fov field" Url="html/20ab2d51-6749-f26a-c232-4e96c2ca8997.htm" />
+  <HelpKINode Title="Camera.ProjMatrix property" Url="html/728bfc5f-682e-62cf-1f76-c3a9cfcc29c8.htm" />
+  <HelpKINode Title="Camera.ViewMatrix property" Url="html/3a39e664-0ea7-6245-d7ed-6201a5f13afb.htm" />
+  <HelpKINode Title="Camera.zFar field" Url="html/a550fd00-0b2e-49ee-f02b-19cd2b8a50d8.htm" />
+  <HelpKINode Title="Camera.zNear field" Url="html/febb957f-914f-8eb0-8399-9a2f9ad13e47.htm" />
+  <HelpKINode Title="cameraLookAt field" Url="html/466f4531-ce29-3784-c6c8-4f64e8b7871b.htm" />
+  <HelpKINode Title="cameraPosition field" Url="html/bcb60bd1-eff5-6f3b-5ba6-1b8b4e56a40f.htm" />
+  <HelpKINode Title="ClearViews method" Url="html/7db99748-1763-a3b0-53d1-489b26a3bc3d.htm" />
+  <HelpKINode Title="CompileShaders method" Url="html/7fcd16c9-af29-fa16-8030-fbbed4226d21.htm" />
+  <HelpKINode Title="components field" Url="html/d1bd3de5-075f-4f03-6998-981132b1aa55.htm" />
+  <HelpKINode Title="Components property" Url="html/bdf02dd0-b93f-783d-c2b8-b1940af236d6.htm" />
+  <HelpKINode Title="context field" Url="html/81d58877-768e-3da0-c2af-12b539d5ee79.htm" />
+  <HelpKINode Title="CreateConstantBuffers method" Url="html/a53da4e1-1aea-9098-17af-85ca48255a58.htm" />
+  <HelpKINode Title="CreateInstance method">
+    <HelpKINode Title="IMaterial.CreateInstance Method " Url="html/89700600-8cd1-ba48-3aa5-4947072e0888.htm" />
+    <HelpKINode Title="SimpleMaterial.CreateInstance Method " Url="html/e042fd8e-9c43-a656-2a09-c75b1590790b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateInstanceTyped method" Url="html/1fd17d24-ca72-2c36-a2ab-81450b591018.htm" />
+  <HelpKINode Title="currentRenderer field" Url="html/0ebfa226-52d6-b125-dbe3-0c81b322c7cd.htm" />
+  <HelpKINode Title="DeltaTime property" Url="html/f7e4493f-1f95-a08e-2ac1-9029b27b840c.htm" />
+  <HelpKINode Title="depthView field" Url="html/b2c4783f-c6bf-6cd7-e4b6-5e10e08c6d26.htm" />
+  <HelpKINode Title="device field">
+    <HelpKINode Title="Renderer.device Field" Url="html/49d1771a-98ef-77ca-16da-6db8aaf46c3a.htm" />
+    <HelpKINode Title="SimpleMaterial.device Field" Url="html/c04b8b05-2f6b-1e48-7d7a-445b3fcdd522.htm" />
+  </HelpKINode>
+  <HelpKINode Title="diffuseColor field" Url="html/fb50ddf9-aa38-330e-1b9f-d7c77b3aa0a9.htm" />
+  <HelpKINode Title="DiffuseColor property" Url="html/ed41c468-44df-c9b5-d8f0-eb663d11de27.htm" />
+  <HelpKINode Title="DiffuseTexture property" Url="html/8f8124c6-088f-1b40-10bd-c1f471ee6799.htm" />
+  <HelpKINode Title="DiffuseTextureView property" Url="html/fd0465e3-3974-1da4-f995-423bef548e1c.htm" />
+  <HelpKINode Title="Dispose method">
+    <HelpKINode Title="Hierarchy.Dispose Method " Url="html/2358763a-ffd9-e3f6-b627-65dd19e02d99.htm" />
+    <HelpKINode Title="Model.Dispose Method " Url="html/077aaa2a-7522-1afa-bade-2e82d41a1799.htm" />
+    <HelpKINode Title="ModelMesh.Dispose Method " Url="html/59a3a9fe-4d1c-0386-1280-b1262979f6dd.htm" />
+    <HelpKINode Title="Renderer.Dispose Method " Url="html/4eac213b-f505-d55a-a6ea-7ced299edfc2.htm" />
+    <HelpKINode Title="SceneObject.Dispose Method " Url="html/552d707f-e8dd-4760-9a97-7b2f7107450c.htm" />
+    <HelpKINode Title="SceneObjectComponent.Dispose Method " Url="html/a8d5ebbf-209f-8f6e-0ec7-683a13858f99.htm" />
+    <HelpKINode Title="SimpleMaterial.Dispose Method " Url="html/17138ab2-91ae-5442-a15b-ccd6492850bf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Elapsed property" Url="html/7f19d896-c5ab-c2bf-831b-5e8434a905c4.htm" />
+  <HelpKINode Title="emissionColor field" Url="html/e68ed04c-f2fc-3e14-b81b-68ee8be33d1c.htm" />
+  <HelpKINode Title="EmissionColor property" Url="html/1eee0d83-335f-8048-c3a4-7864c9237dcb.htm" />
+  <HelpKINode Title="factory field" Url="html/671b2046-14d6-a7f4-f4c5-3067e708d426.htm" />
+  <HelpKINode Title="form field" Url="html/b9d4daa8-3184-5d02-c906-502d9856f161.htm" />
+  <HelpKINode Title="fov field" Url="html/20ab2d51-6749-f26a-c232-4e96c2ca8997.htm" />
+  <HelpKINode Title="GetSerializableObject method" Url="html/e5ef8bd5-ce7f-47fb-4741-0396a7451ed2.htm" />
+  <HelpKINode Title="GetSerializableTransform method" Url="html/afb643cd-cf8e-36e2-e007-468d4e718fbf.htm" />
+  <HelpKINode Title="Hierarchy class">
+    <HelpKINode Title="Hierarchy Class" Url="html/e8e4cf8c-8c2c-2612-33fe-76d670714f84.htm" />
+    <HelpKINode Title="constructor" Url="html/32a8f4c0-3783-015f-e6e9-d995d01b2f3b.htm" />
+    <HelpKINode Title="fields" Url="html/5fca8415-00e4-fd9f-7185-24ae2418f24f.htm" />
+    <HelpKINode Title="methods" Url="html/dbb43716-f83f-0176-09ef-694f6cc53fd9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Hierarchy.Add method" Url="html/fbd2f580-b876-d808-332c-2494f13483a2.htm" />
+  <HelpKINode Title="Hierarchy.Dispose method" Url="html/2358763a-ffd9-e3f6-b627-65dd19e02d99.htm" />
+  <HelpKINode Title="Hierarchy.Hierarchy constructor" Url="html/32a8f4c0-3783-015f-e6e9-d995d01b2f3b.htm" />
+  <HelpKINode Title="Hierarchy.Remove method" Url="html/8a981b24-fe42-68d7-1bc2-3c01a7a89d19.htm" />
+  <HelpKINode Title="Hierarchy.Render method" Url="html/7895711a-f335-60de-1d60-72643c99674b.htm" />
+  <HelpKINode Title="Hierarchy.sceneObjects field" Url="html/3e052ea9-9a2f-5b1f-03c5-2bed45978ac6.htm" />
+  <HelpKINode Title="Hierarchy.Update method" Url="html/2114e421-a4bd-0ff9-0ec7-1296395502f0.htm" />
+  <HelpKINode Title="Hierarchy.UpdateChildrenRecursively method" Url="html/edf4c272-131b-a8d8-229d-8639e7683715.htm" />
+  <HelpKINode Title="Id property">
+    <HelpKINode Title="SceneObject.Id Property " Url="html/3b36e508-34e0-c218-9315-fa5d2f14d503.htm" />
+    <HelpKINode Title="Transform.Id Property " Url="html/64d5dbd1-7621-0ace-6b24-45184de5c2ee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMaterial interface">
+    <HelpKINode Title="IMaterial Interface" Url="html/a67b2ab5-aeb1-f046-b3e2-90b8992d3b90.htm" />
+    <HelpKINode Title="methods" Url="html/891cc729-8958-640f-dc80-6e69336dcc86.htm" />
+    <HelpKINode Title="properties" Url="html/2b678a94-4c76-9dbd-e9db-bdb82228a3d0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMaterial.CreateInstance method" Url="html/89700600-8cd1-ba48-3aa5-4947072e0888.htm" />
+  <HelpKINode Title="IMaterial.Initialize method" Url="html/b4655a90-6d6b-561c-1807-c755be1750cb.htm" />
+  <HelpKINode Title="IMaterial.Render method" Url="html/34e9da04-43a7-03bf-a0c3-276941ac46e1.htm" />
+  <HelpKINode Title="IMaterial.VertexShaderByteCode property" Url="html/b7225429-f124-26d6-ba74-756c08bb804e.htm" />
+  <HelpKINode Title="IndexBuffer property" Url="html/d7dce363-8d20-f1e5-4a27-956f70424572.htm" />
+  <HelpKINode Title="IndexCount property" Url="html/056c1d61-1eea-1be3-3434-f8703f8d224f.htm" />
+  <HelpKINode Title="Initialize method">
+    <HelpKINode Title="IMaterial.Initialize Method " Url="html/b4655a90-6d6b-561c-1807-c755be1750cb.htm" />
+    <HelpKINode Title="SimpleMaterial.Initialize Method " Url="html/2510179a-0f91-04e6-2658-62ece9447ae9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InputElements property" Url="html/69b936c3-1b7a-9a42-3e5e-af40bc5cc170.htm" />
+  <HelpKINode Title="InputLayout property" Url="html/ea2d34b7-2f92-91f3-e032-1dff519fd9d1.htm" />
+  <HelpKINode Title="isActive field" Url="html/58e71637-1a90-8d81-4e90-505a3ee2feec.htm" />
+  <HelpKINode Title="IsDirty property" Url="html/7313e442-7806-c3ed-e73a-96d19692fb0e.htm" />
+  <HelpKINode Title="lightPos field" Url="html/af0d4217-1074-da7d-e9be-f2950afb4e05.htm" />
+  <HelpKINode Title="LightPos property" Url="html/58acada5-815e-d225-03bf-400db91a755b.htm" />
+  <HelpKINode Title="LoadAndReplaceHierarchy method" Url="html/d936c07c-c9f6-73b1-676d-1c2ef143642b.htm" />
+  <HelpKINode Title="LoadAndReplaceHierarchyAbsolute method" Url="html/6c5b443a-09d4-8037-6123-761492955b96.htm" />
+  <HelpKINode Title="LoadAndReplaceHierarchyRelative method" Url="html/e5874f0d-ae4d-01d3-e1dd-5b52d97b7981.htm" />
+  <HelpKINode Title="LocalPosition property">
+    <HelpKINode Title="SerializableTransform.LocalPosition Property " Url="html/de57e2de-3c86-4f86-9a63-4a666ad9afeb.htm" />
+    <HelpKINode Title="Transform.LocalPosition Property " Url="html/a30b9dad-098f-9b62-786f-e41c94f38a73.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LocalPositionX property" Url="html/68136cb5-4584-fd6c-696d-90ab9d814bbc.htm" />
+  <HelpKINode Title="LocalPositionY property" Url="html/06dd9502-b62b-9e82-09bb-814dc195c311.htm" />
+  <HelpKINode Title="LocalPositionZ property" Url="html/b578a95c-7a6d-bed7-71ed-55f67c2ae938.htm" />
+  <HelpKINode Title="LocalRotation property">
+    <HelpKINode Title="SerializableTransform.LocalRotation Property " Url="html/405412f2-9b7f-a393-1442-6043ef9b7504.htm" />
+    <HelpKINode Title="Transform.LocalRotation Property " Url="html/0919ecc0-e011-e5b2-5fc4-7e5d9520a539.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LocalRotationX property" Url="html/3bc19e5b-430e-7aa6-e4d1-dbe7b863224e.htm" />
+  <HelpKINode Title="LocalRotationY property" Url="html/567d694e-f9cb-0c65-2955-be53722bf3d9.htm" />
+  <HelpKINode Title="LocalRotationZ property" Url="html/f76e1961-fe5b-cb18-d726-f46782dfb7c6.htm" />
+  <HelpKINode Title="LocalScale property">
+    <HelpKINode Title="SerializableTransform.LocalScale Property " Url="html/5be87be6-ea19-c7f2-8971-135c6a955b42.htm" />
+    <HelpKINode Title="Transform.LocalScale Property " Url="html/bbed4d3c-376a-93b9-38d9-bcae5b2f3610.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LocalScaleX property" Url="html/9870f253-526a-cd15-f8d2-1b329dac9b7d.htm" />
+  <HelpKINode Title="LocalScaleY property" Url="html/79780048-7bd7-a0c4-1651-0f30c2855bc6.htm" />
+  <HelpKINode Title="LocalScaleZ property" Url="html/d2d5f518-2b81-1711-7202-c495ade32a25.htm" />
+  <HelpKINode Title="material field" Url="html/a571e15f-6a87-6c0b-3ce9-5c7896d726d0.htm" />
+  <HelpKINode Title="Material property" Url="html/78dbddfd-d4a6-6bff-99f8-20ce494d4db8.htm" />
+  <HelpKINode Title="Model class">
+    <HelpKINode Title="Model Class" Url="html/e6ac414e-1d5c-f2cb-ec59-6fedda005a66.htm" />
+    <HelpKINode Title="constructor" Url="html/7a73f556-e61d-337f-408f-8f728824b553.htm" />
+    <HelpKINode Title="fields" Url="html/4f343a0a-b680-08ec-20fc-9aecc1206ca5.htm" />
+    <HelpKINode Title="methods" Url="html/82a242fb-8a17-62e5-4986-31daabc26313.htm" />
+    <HelpKINode Title="properties" Url="html/1e0e3557-96c7-5308-6767-d57c64890d31.htm" />
+  </HelpKINode>
+  <HelpKINode Title="model field" Url="html/2d6a6546-dbf7-50d7-a198-ee2207e5d5ef.htm" />
+  <HelpKINode Title="Model.AABoxCentre property" Url="html/778c5ad6-b10d-cc72-6bd0-131e5595ec94.htm" />
+  <HelpKINode Title="Model.AABoxMax property" Url="html/00ff8a36-1dc5-04ce-8f17-7e7fc9ec1121.htm" />
+  <HelpKINode Title="Model.AABoxMin property" Url="html/8141d0ed-eb1d-f453-4b3c-c83a4c77f607.htm" />
+  <HelpKINode Title="Model.AddMesh method" Url="html/bcbd8751-cf29-57c7-d993-5d3ddbc20d3c.htm" />
+  <HelpKINode Title="Model.basePath field" Url="html/d5ac00eb-ed02-e6e2-fcdf-25ecf78cf92d.htm" />
+  <HelpKINode Title="Model.Dispose method" Url="html/077aaa2a-7522-1afa-bade-2e82d41a1799.htm" />
+  <HelpKINode Title="Model.Model constructor" Url="html/7a73f556-e61d-337f-408f-8f728824b553.htm" />
+  <HelpKINode Title="Model.modelPath field" Url="html/4792f23b-2589-cd19-a88f-f79a1cd7b4c3.htm" />
+  <HelpKINode Title="Model.Render method" Url="html/c00f44c9-749a-8a49-6d2a-b1f4e95355c7.htm" />
+  <HelpKINode Title="Model.SetAABox method" Url="html/3ec72347-dae6-a94a-e8ea-b734581dc810.htm" />
+  <HelpKINode Title="Model.SetInputLayout method" Url="html/76fae7cc-927d-809f-3550-a75be6661343.htm" />
+  <HelpKINode Title="ModelMesh class">
+    <HelpKINode Title="ModelMesh Class" Url="html/8e4fc40c-c6e7-e4d0-263e-61a0c9901bcb.htm" />
+    <HelpKINode Title="constructor" Url="html/cdd4d2b0-067d-ff9b-2827-ad475e29ca3d.htm" />
+    <HelpKINode Title="methods" Url="html/03b63801-2e23-8bf2-3182-4ae2939ccb77.htm" />
+    <HelpKINode Title="properties" Url="html/e63579e8-d7b1-8f81-55d1-7a55d506f5c2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModelMesh.AddTextureDiffuse method" Url="html/f8db803e-16e8-a57d-d385-31c50b50e295.htm" />
+  <HelpKINode Title="ModelMesh.DiffuseTexture property" Url="html/8f8124c6-088f-1b40-10bd-c1f471ee6799.htm" />
+  <HelpKINode Title="ModelMesh.DiffuseTextureView property" Url="html/fd0465e3-3974-1da4-f995-423bef548e1c.htm" />
+  <HelpKINode Title="ModelMesh.Dispose method" Url="html/59a3a9fe-4d1c-0386-1280-b1262979f6dd.htm" />
+  <HelpKINode Title="ModelMesh.IndexBuffer property" Url="html/d7dce363-8d20-f1e5-4a27-956f70424572.htm" />
+  <HelpKINode Title="ModelMesh.IndexCount property" Url="html/056c1d61-1eea-1be3-3434-f8703f8d224f.htm" />
+  <HelpKINode Title="ModelMesh.InputElements property" Url="html/69b936c3-1b7a-9a42-3e5e-af40bc5cc170.htm" />
+  <HelpKINode Title="ModelMesh.InputLayout property" Url="html/ea2d34b7-2f92-91f3-e032-1dff519fd9d1.htm" />
+  <HelpKINode Title="ModelMesh.ModelMesh constructor" Url="html/cdd4d2b0-067d-ff9b-2827-ad475e29ca3d.htm" />
+  <HelpKINode Title="ModelMesh.PrimitiveCount property" Url="html/3c2bacf2-2c21-0a07-d621-7b9e08392118.htm" />
+  <HelpKINode Title="ModelMesh.PrimitiveTopology property" Url="html/28dfd717-8359-dac1-48ac-ac3b07b5e9fe.htm" />
+  <HelpKINode Title="ModelMesh.SetInputLayout method" Url="html/3b32a6b4-f86d-8e15-7e45-d5412bba441f.htm" />
+  <HelpKINode Title="ModelMesh.VertexBuffer property" Url="html/e6e54889-edbd-6132-8dd9-d741f8c9f6ef.htm" />
+  <HelpKINode Title="ModelMesh.VertexCount property" Url="html/2248687e-a29d-c59d-e51a-e6e028327993.htm" />
+  <HelpKINode Title="ModelMesh.VertexSize property" Url="html/651527ea-3c17-0229-0f40-28ad530eb979.htm" />
+  <HelpKINode Title="modelPath field" Url="html/4792f23b-2589-cd19-a88f-f79a1cd7b4c3.htm" />
+  <HelpKINode Title="ModelPath property" Url="html/f6592fb5-1f1b-e95e-bd6a-98fa5b24ffbb.htm" />
+  <HelpKINode Title="MovementSpeed property" Url="html/b2467bdc-cee0-9008-c0fd-58266c386aa0.htm" />
+  <HelpKINode Title="NextFrame method" Url="html/3ebdc435-7257-0390-64e5-c30c1a812b41.htm" />
+  <HelpKINode Title="ObjectID property" Url="html/15aa715d-66b1-9934-8e48-e14d1eae38a3.htm" />
+  <HelpKINode Title="parent field" Url="html/5083c22f-40cb-087f-35c7-9836e913e396.htm" />
+  <HelpKINode Title="ParentId property" Url="html/a9ddccc7-ff67-7ee5-f344-68c582b03ca7.htm" />
+  <HelpKINode Title="pixelConstantBuffer field" Url="html/579a27c1-3b75-851d-07ee-fa4cfa559e2f.htm" />
+  <HelpKINode Title="pixelShader field" Url="html/452b2086-cabf-362f-3b63-c356581441e5.htm" />
+  <HelpKINode Title="pixelShaderByteCode field" Url="html/3402739d-07c4-e288-22bc-f70276fa4e90.htm" />
+  <HelpKINode Title="pixelShaderData field" Url="html/93c30af5-4ac3-ff94-5bd7-3650af29cb48.htm" />
+  <HelpKINode Title="PixelShaderData property" Url="html/3323a7fa-6cff-73db-e691-f9f6207918ec.htm" />
+  <HelpKINode Title="PixelShaderDataStruct structure">
+    <HelpKINode Title="fields" Url="html/8528decc-fa51-5ed2-3c06-6b7000b96108.htm" />
+    <HelpKINode Title="methods" Url="html/298b1aa4-933b-edd9-3edd-4cfbe80d4e8d.htm" />
+    <HelpKINode Title="properties" Url="html/e4a5ae06-64d9-9479-7b10-fa5792426529.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PixelShaderEntryPoint property" Url="html/1e73afe4-9242-c036-16a2-7823711a65a2.htm" />
+  <HelpKINode Title="PixelShaderPath property" Url="html/369c2226-c1b3-b2d0-12af-9650365f62e7.htm" />
+  <HelpKINode Title="PixelShaderProfile property" Url="html/7aa6c66f-228b-dae6-e63e-337a540223f0.htm" />
+  <HelpKINode Title="PrimitiveCount property" Url="html/3c2bacf2-2c21-0a07-d621-7b9e08392118.htm" />
+  <HelpKINode Title="PrimitiveTopology property" Url="html/28dfd717-8359-dac1-48ac-ac3b07b5e9fe.htm" />
+  <HelpKINode Title="ProjMatrix property" Url="html/728bfc5f-682e-62cf-1f76-c3a9cfcc29c8.htm" />
+  <HelpKINode Title="Remove method" Url="html/8a981b24-fe42-68d7-1bc2-3c01a7a89d19.htm" />
+  <HelpKINode Title="Render method">
+    <HelpKINode Title="Hierarchy.Render Method " Url="html/7895711a-f335-60de-1d60-72643c99674b.htm" />
+    <HelpKINode Title="IMaterial.Render Method " Url="html/34e9da04-43a7-03bf-a0c3-276941ac46e1.htm" />
+    <HelpKINode Title="Model.Render Method " Url="html/c00f44c9-749a-8a49-6d2a-b1f4e95355c7.htm" />
+    <HelpKINode Title="SceneObject.Render Method " Url="html/5f221fd8-29e3-c6f2-6ae2-ab3d2c87a62c.htm" />
+    <HelpKINode Title="SimpleMaterial.Render Method " Url="html/9c05e8a5-693e-eaf4-3cdc-ab0a4e8d1355.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Renderer class">
+    <HelpKINode Title="Renderer Class" Url="html/f201a213-b571-d591-a3ec-89fb695b08ba.htm" />
+    <HelpKINode Title="constructor" Url="html/5c6a28c9-9c2e-1371-fecf-130b6a2697ea.htm" />
+    <HelpKINode Title="fields" Url="html/c727a802-cafe-3948-e922-aefc3edfc99e.htm" />
+    <HelpKINode Title="methods" Url="html/f06ee870-74ca-3a17-9cbb-9e45a2bc926a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Renderer.backBuffer field" Url="html/8e287277-b076-0139-313f-c1d7cced8b9f.htm" />
+  <HelpKINode Title="Renderer.ClearViews method" Url="html/7db99748-1763-a3b0-53d1-489b26a3bc3d.htm" />
+  <HelpKINode Title="Renderer.context field" Url="html/81d58877-768e-3da0-c2af-12b539d5ee79.htm" />
+  <HelpKINode Title="Renderer.depthView field" Url="html/b2c4783f-c6bf-6cd7-e4b6-5e10e08c6d26.htm" />
+  <HelpKINode Title="Renderer.device field" Url="html/49d1771a-98ef-77ca-16da-6db8aaf46c3a.htm" />
+  <HelpKINode Title="Renderer.Dispose method" Url="html/4eac213b-f505-d55a-a6ea-7ced299edfc2.htm" />
+  <HelpKINode Title="Renderer.factory field" Url="html/671b2046-14d6-a7f4-f4c5-3067e708d426.htm" />
+  <HelpKINode Title="Renderer.form field" Url="html/b9d4daa8-3184-5d02-c906-502d9856f161.htm" />
+  <HelpKINode Title="Renderer.Renderer constructor" Url="html/5c6a28c9-9c2e-1371-fecf-130b6a2697ea.htm" />
+  <HelpKINode Title="Renderer.renderView field" Url="html/dad48908-fb58-1d52-720d-863fc3c9cd75.htm" />
+  <HelpKINode Title="Renderer.swapChain field" Url="html/27c2723f-a899-b0bf-d60a-790efd489ffd.htm" />
+  <HelpKINode Title="Renderer.swapChainDescription field" Url="html/07b8bf0a-f4f8-1c59-ce22-6853fbc774d5.htm" />
+  <HelpKINode Title="renderView field" Url="html/dad48908-fb58-1d52-720d-863fc3c9cd75.htm" />
+  <HelpKINode Title="ResetTime method" Url="html/774901cd-1db7-bbd1-50d3-243bd7315b4a.htm" />
+  <HelpKINode Title="RotationSpeed property" Url="html/baf6a836-43ed-da9c-efb9-9a8a48ca29de.htm" />
+  <HelpKINode Title="SaveCurrentHierarchy method" Url="html/9e1deebb-ef79-9c6b-28f2-81c9c08453c7.htm" />
+  <HelpKINode Title="SaveCurrentHierarchyAbsolute method" Url="html/91d3b332-8400-c9a2-b738-35e42af4b55e.htm" />
+  <HelpKINode Title="SaveCurrentHierarchyRelative method" Url="html/8f423e00-2a70-3246-e4fb-807fe8480fcb.htm" />
+  <HelpKINode Title="SavedSceneObject class">
+    <HelpKINode Title="SavedSceneObject Class" Url="html/ce6e3ca6-6a97-5b80-ee54-815d92bdf071.htm" />
+    <HelpKINode Title="constructor" Url="html/e599be62-6e4f-66b0-735b-e59f8531ad3f.htm" />
+    <HelpKINode Title="methods" Url="html/93e1196c-3301-fa2c-96a7-3437a15ac5c7.htm" />
+    <HelpKINode Title="properties" Url="html/59458c0b-dd9a-aa1d-88d6-61a121bd5aa6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SavedSceneObject.AnimationComponent property" Url="html/d94fd950-69bd-8ed8-d7ef-583c161f0274.htm" />
+  <HelpKINode Title="SavedSceneObject.Components property" Url="html/bdf02dd0-b93f-783d-c2b8-b1940af236d6.htm" />
+  <HelpKINode Title="SavedSceneObject.Material property" Url="html/78dbddfd-d4a6-6bff-99f8-20ce494d4db8.htm" />
+  <HelpKINode Title="SavedSceneObject.ModelPath property" Url="html/f6592fb5-1f1b-e95e-bd6a-98fa5b24ffbb.htm" />
+  <HelpKINode Title="SavedSceneObject.ObjectID property" Url="html/15aa715d-66b1-9934-8e48-e14d1eae38a3.htm" />
+  <HelpKINode Title="SavedSceneObject.SavedSceneObject constructor" Url="html/e599be62-6e4f-66b0-735b-e59f8531ad3f.htm" />
+  <HelpKINode Title="SavedSceneObject.Transform property" Url="html/2df780a6-f3a0-3567-1dce-0418ba92c409.htm" />
+  <HelpKINode Title="SavedSceneObjects property" Url="html/1086395b-d139-e23f-b748-23541d5624f4.htm" />
+  <HelpKINode Title="SceneManager class">
+    <HelpKINode Title="SceneManager Class" Url="html/4bd0263a-022f-95eb-e537-7d8826848d02.htm" />
+    <HelpKINode Title="constructor" Url="html/a3dd879c-08e5-973f-0bf4-10db4e76c90b.htm" />
+    <HelpKINode Title="fields" Url="html/51656daf-7e32-d4a3-59fe-f6fa852d384b.htm" />
+    <HelpKINode Title="methods" Url="html/0df576f0-1bcb-bc1c-c490-d0dea6a10bc2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SceneManager namespace" Url="html/f2e76e95-2ce2-76ba-1342-4b12dca48b07.htm" />
+  <HelpKINode Title="SceneManager.Camera class" Url="html/bd038d03-2ff1-0540-c6aa-40edd14d8d1c.htm" />
+  <HelpKINode Title="SceneManager.currentRenderer field" Url="html/0ebfa226-52d6-b125-dbe3-0c81b322c7cd.htm" />
+  <HelpKINode Title="SceneManager.Hierarchy class" Url="html/e8e4cf8c-8c2c-2612-33fe-76d670714f84.htm" />
+  <HelpKINode Title="SceneManager.IMaterial interface" Url="html/a67b2ab5-aeb1-f046-b3e2-90b8992d3b90.htm" />
+  <HelpKINode Title="SceneManager.LoadAndReplaceHierarchy method" Url="html/d936c07c-c9f6-73b1-676d-1c2ef143642b.htm" />
+  <HelpKINode Title="SceneManager.LoadAndReplaceHierarchyAbsolute method" Url="html/6c5b443a-09d4-8037-6123-761492955b96.htm" />
+  <HelpKINode Title="SceneManager.LoadAndReplaceHierarchyRelative method" Url="html/e5874f0d-ae4d-01d3-e1dd-5b52d97b7981.htm" />
+  <HelpKINode Title="SceneManager.Model class" Url="html/e6ac414e-1d5c-f2cb-ec59-6fedda005a66.htm" />
+  <HelpKINode Title="SceneManager.ModelMesh class" Url="html/8e4fc40c-c6e7-e4d0-263e-61a0c9901bcb.htm" />
+  <HelpKINode Title="SceneManager.Renderer class" Url="html/f201a213-b571-d591-a3ec-89fb695b08ba.htm" />
+  <HelpKINode Title="SceneManager.SaveCurrentHierarchy method" Url="html/9e1deebb-ef79-9c6b-28f2-81c9c08453c7.htm" />
+  <HelpKINode Title="SceneManager.SaveCurrentHierarchyAbsolute method" Url="html/91d3b332-8400-c9a2-b738-35e42af4b55e.htm" />
+  <HelpKINode Title="SceneManager.SaveCurrentHierarchyRelative method" Url="html/8f423e00-2a70-3246-e4fb-807fe8480fcb.htm" />
+  <HelpKINode Title="SceneManager.SavedSceneObject class" Url="html/ce6e3ca6-6a97-5b80-ee54-815d92bdf071.htm" />
+  <HelpKINode Title="SceneManager.SceneManager class" Url="html/4bd0263a-022f-95eb-e537-7d8826848d02.htm" />
+  <HelpKINode Title="SceneManager.SceneManager constructor" Url="html/a3dd879c-08e5-973f-0bf4-10db4e76c90b.htm" />
+  <HelpKINode Title="SceneManager.SceneObject class" Url="html/4ac70f70-b06a-c0d8-e307-b934e79ecea0.htm" />
+  <HelpKINode Title="SceneManager.SceneObjectComponent class" Url="html/b54c3b32-3f28-d561-92a1-952c97b156f1.htm" />
+  <HelpKINode Title="SceneManager.SerializableScene class" Url="html/6ea1a990-a65c-2537-4253-119fde6a5d55.htm" />
+  <HelpKINode Title="SceneManager.SerializableTransform structure" Url="html/35d54d7c-aa74-2de9-cf27-a3f890a71780.htm" />
+  <HelpKINode Title="SceneManager.SerializableVector3 structure" Url="html/beaaa40b-775a-5b28-cb6f-211a18297b3b.htm" />
+  <HelpKINode Title="SceneManager.SerializableVector4 structure" Url="html/044c021f-1c25-7876-7568-897290093ef2.htm" />
+  <HelpKINode Title="SceneManager.SimpleMaterial class" Url="html/0fc305d8-9e34-54ed-7bd5-aa7643c15638.htm" />
+  <HelpKINode Title="SceneManager.SimpleMaterial.PixelShaderDataStruct structure" Url="html/00bd5bf3-600c-ed45-d867-154c2554a589.htm" />
+  <HelpKINode Title="SceneManager.SimpleMaterial.VertexShaderDataStruct structure" Url="html/7daa303d-1c97-a96d-12aa-46cedbded1b0.htm" />
+  <HelpKINode Title="SceneManager.SimpleTransformAnimationComponent class" Url="html/5532859f-bc5c-1d11-d5cf-df6777b0af44.htm" />
+  <HelpKINode Title="SceneManager.Time class" Url="html/8a612532-4085-b00f-8c87-c539c836a11e.htm" />
+  <HelpKINode Title="SceneManager.Transform class" Url="html/6cb64a56-7da0-cc23-02c2-eae82e8cf1c5.htm" />
+  <HelpKINode Title="SceneName property" Url="html/983ad3e0-0571-0a1d-222d-d95cf85555fc.htm" />
+  <HelpKINode Title="SceneObject class">
+    <HelpKINode Title="SceneObject Class" Url="html/4ac70f70-b06a-c0d8-e307-b934e79ecea0.htm" />
+    <HelpKINode Title="constructor" Url="html/52015107-cd8c-2df9-d4d1-ae46856e2ee6.htm" />
+    <HelpKINode Title="fields" Url="html/a81aa80f-ad49-1ae5-615c-555afd0dcb91.htm" />
+    <HelpKINode Title="methods" Url="html/4ee179c5-856d-adcc-fa98-0cdfa2c29de8.htm" />
+    <HelpKINode Title="properties" Url="html/c14cbf19-3fb4-e4de-b621-6909d03e6c7d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SceneObject property" Url="html/f237333a-0f08-3dd4-c10f-1d077b47d77a.htm" />
+  <HelpKINode Title="SceneObject.AddComponent method" Url="html/4628fc72-9dcd-b6e6-4d50-737a6c2b70c7.htm" />
+  <HelpKINode Title="SceneObject.animationComponent field" Url="html/0e83a87e-7d0d-75e1-c2c7-672d6819d8f4.htm" />
+  <HelpKINode Title="SceneObject.components field" Url="html/d1bd3de5-075f-4f03-6998-981132b1aa55.htm" />
+  <HelpKINode Title="SceneObject.Dispose method" Url="html/552d707f-e8dd-4760-9a97-7b2f7107450c.htm" />
+  <HelpKINode Title="SceneObject.GetSerializableObject method" Url="html/e5ef8bd5-ce7f-47fb-4741-0396a7451ed2.htm" />
+  <HelpKINode Title="SceneObject.Id property" Url="html/3b36e508-34e0-c218-9315-fa5d2f14d503.htm" />
+  <HelpKINode Title="SceneObject.isActive field" Url="html/58e71637-1a90-8d81-4e90-505a3ee2feec.htm" />
+  <HelpKINode Title="SceneObject.material field" Url="html/a571e15f-6a87-6c0b-3ce9-5c7896d726d0.htm" />
+  <HelpKINode Title="SceneObject.model field" Url="html/2d6a6546-dbf7-50d7-a198-ee2207e5d5ef.htm" />
+  <HelpKINode Title="SceneObject.Render method" Url="html/5f221fd8-29e3-c6f2-6ae2-ab3d2c87a62c.htm" />
+  <HelpKINode Title="SceneObject.SceneObject constructor" Url="html/52015107-cd8c-2df9-d4d1-ae46856e2ee6.htm" />
+  <HelpKINode Title="SceneObject.transform field" Url="html/a27f1120-0c30-d150-03c6-22cb7910e26f.htm" />
+  <HelpKINode Title="SceneObject.Update method" Url="html/61b19cb5-c9f6-c235-1b07-70d76a151e16.htm" />
+  <HelpKINode Title="SceneObjectComponent class">
+    <HelpKINode Title="SceneObjectComponent Class" Url="html/b54c3b32-3f28-d561-92a1-952c97b156f1.htm" />
+    <HelpKINode Title="constructor" Url="html/0869d036-9a3e-3514-40ed-54bd367b6316.htm" />
+    <HelpKINode Title="methods" Url="html/fdb42d1c-8544-d8e0-c4c8-8ca413605750.htm" />
+    <HelpKINode Title="properties" Url="html/f0b25066-2427-60e2-a7eb-aa3a23669fa7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SceneObjectComponent.BindSceneObject method" Url="html/0714920b-a897-48df-a034-e310b8aa621e.htm" />
+  <HelpKINode Title="SceneObjectComponent.Dispose method" Url="html/a8d5ebbf-209f-8f6e-0ec7-683a13858f99.htm" />
+  <HelpKINode Title="SceneObjectComponent.SceneObject property" Url="html/f237333a-0f08-3dd4-c10f-1d077b47d77a.htm" />
+  <HelpKINode Title="SceneObjectComponent.SceneObjectComponent constructor" Url="html/0869d036-9a3e-3514-40ed-54bd367b6316.htm" />
+  <HelpKINode Title="SceneObjectComponent.Update method" Url="html/da4e3393-50d7-6348-f101-71af2ac241bb.htm" />
+  <HelpKINode Title="sceneObjects field" Url="html/3e052ea9-9a2f-5b1f-03c5-2bed45978ac6.htm" />
+  <HelpKINode Title="SerializableScene class">
+    <HelpKINode Title="SerializableScene Class" Url="html/6ea1a990-a65c-2537-4253-119fde6a5d55.htm" />
+    <HelpKINode Title="constructor" Url="html/6928d5d4-0d77-8172-3052-e77aecc555dc.htm" />
+    <HelpKINode Title="methods" Url="html/8b241d08-14de-72e1-fbab-471e53f0d32d.htm" />
+    <HelpKINode Title="properties" Url="html/577760bd-112a-fd00-07d7-07f200941a7b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SerializableScene.SavedSceneObjects property" Url="html/1086395b-d139-e23f-b748-23541d5624f4.htm" />
+  <HelpKINode Title="SerializableScene.SceneName property" Url="html/983ad3e0-0571-0a1d-222d-d95cf85555fc.htm" />
+  <HelpKINode Title="SerializableScene.SerializableScene constructor" Url="html/6928d5d4-0d77-8172-3052-e77aecc555dc.htm" />
+  <HelpKINode Title="SerializableTransform structure">
+    <HelpKINode Title="SerializableTransform Structure" Url="html/35d54d7c-aa74-2de9-cf27-a3f890a71780.htm" />
+    <HelpKINode Title="methods" Url="html/8f0568e1-5072-9d71-b22c-cac149eb6c7c.htm" />
+    <HelpKINode Title="properties" Url="html/c8178fad-99d0-1911-986c-204724af6bd1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SerializableTransform.LocalPosition property" Url="html/de57e2de-3c86-4f86-9a63-4a666ad9afeb.htm" />
+  <HelpKINode Title="SerializableTransform.LocalRotation property" Url="html/405412f2-9b7f-a393-1442-6043ef9b7504.htm" />
+  <HelpKINode Title="SerializableTransform.LocalScale property" Url="html/5be87be6-ea19-c7f2-8971-135c6a955b42.htm" />
+  <HelpKINode Title="SerializableTransform.ParentId property" Url="html/a9ddccc7-ff67-7ee5-f344-68c582b03ca7.htm" />
+  <HelpKINode Title="SerializableTransform.TransformID property" Url="html/dfaacbad-ac5d-aeef-de17-8e97c91d9e7b.htm" />
+  <HelpKINode Title="SerializableVector3 structure">
+    <HelpKINode Title="SerializableVector3 Structure" Url="html/beaaa40b-775a-5b28-cb6f-211a18297b3b.htm" />
+    <HelpKINode Title="constructor" Url="html/96632443-e7e5-1489-4162-038a8baf2962.htm" />
+    <HelpKINode Title="methods" Url="html/2b64cc22-72c8-6ebe-871a-00467e04a944.htm" />
+    <HelpKINode Title="properties" Url="html/80c3bb2e-af0b-5ece-87eb-a4a06d46a6b6.htm" />
+    <HelpKINode Title="type conversions" Url="html/611a42e6-7d69-93c0-5368-a81d6abfc597.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SerializableVector3 to  conversion" Url="html/664effab-2e5c-60e1-9da2-5d9fd259b9b7.htm" />
+  <HelpKINode Title="SerializableVector3.SerializableVector3 constructor" Url="html/96632443-e7e5-1489-4162-038a8baf2962.htm" />
+  <HelpKINode Title="SerializableVector3.X property" Url="html/26a6cb29-7743-9715-b101-512d1fe8921e.htm" />
+  <HelpKINode Title="SerializableVector3.Y property" Url="html/29d4b79d-d495-2d8a-b5e5-80af0d7b5038.htm" />
+  <HelpKINode Title="SerializableVector3.Z property" Url="html/d1f1ba19-6b1b-4707-5dd5-0177df00f173.htm" />
+  <HelpKINode Title="SerializableVector4 structure">
+    <HelpKINode Title="SerializableVector4 Structure" Url="html/044c021f-1c25-7876-7568-897290093ef2.htm" />
+    <HelpKINode Title="constructor" Url="html/4fe52119-ae00-928c-462b-69f57d7e1ccf.htm" />
+    <HelpKINode Title="methods" Url="html/01c90a01-00ea-7d52-3d88-5568975861b5.htm" />
+    <HelpKINode Title="properties" Url="html/2dab9b88-d581-67c1-d109-ff80366c7ef9.htm" />
+    <HelpKINode Title="type conversions" Url="html/64cc7bbf-6cd4-8fc7-1948-4674cc924476.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SerializableVector4 to  conversion" Url="html/9fbc947f-5ac2-79a9-09bb-82a528560b90.htm" />
+  <HelpKINode Title="SerializableVector4.SerializableVector4 constructor" Url="html/4fe52119-ae00-928c-462b-69f57d7e1ccf.htm" />
+  <HelpKINode Title="SerializableVector4.W property" Url="html/88f80c5f-c99d-75e6-b5e2-68effd37a526.htm" />
+  <HelpKINode Title="SerializableVector4.X property" Url="html/ca575a98-9922-465b-46b9-655db8ec1e03.htm" />
+  <HelpKINode Title="SerializableVector4.Y property" Url="html/6c28d3c5-330a-0288-b7d6-90e2e7d39dc0.htm" />
+  <HelpKINode Title="SerializableVector4.Z property" Url="html/01c2818a-96fa-9dd2-f9dd-3d425fc7cfe8.htm" />
+  <HelpKINode Title="SetAABox method" Url="html/3ec72347-dae6-a94a-e8ea-b734581dc810.htm" />
+  <HelpKINode Title="SetInputLayout method">
+    <HelpKINode Title="Model.SetInputLayout Method " Url="html/76fae7cc-927d-809f-3550-a75be6661343.htm" />
+    <HelpKINode Title="ModelMesh.SetInputLayout Method " Url="html/3b32a6b4-f86d-8e15-7e45-d5412bba441f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetMatrices method" Url="html/a3820379-1ff1-70fb-80fc-9c76c1ef3ec9.htm" />
+  <HelpKINode Title="SimpleMaterial class">
+    <HelpKINode Title="SimpleMaterial Class" Url="html/0fc305d8-9e34-54ed-7bd5-aa7643c15638.htm" />
+    <HelpKINode Title="constructor" Url="html/d9206688-adca-ad9a-6b43-e3684dda7e50.htm" />
+    <HelpKINode Title="fields" Url="html/bf3ef197-9cd7-4617-951f-48b4fd0a29d2.htm" />
+    <HelpKINode Title="methods" Url="html/7ae40760-8afa-6fd9-c42d-9159ebdb7b79.htm" />
+    <HelpKINode Title="properties" Url="html/28ef5cb3-1ad2-5888-2246-733f02e5eccd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SimpleMaterial.CompileShaders method" Url="html/7fcd16c9-af29-fa16-8030-fbbed4226d21.htm" />
+  <HelpKINode Title="SimpleMaterial.CreateConstantBuffers method" Url="html/a53da4e1-1aea-9098-17af-85ca48255a58.htm" />
+  <HelpKINode Title="SimpleMaterial.CreateInstance method" Url="html/e042fd8e-9c43-a656-2a09-c75b1590790b.htm" />
+  <HelpKINode Title="SimpleMaterial.CreateInstanceTyped method" Url="html/1fd17d24-ca72-2c36-a2ab-81450b591018.htm" />
+  <HelpKINode Title="SimpleMaterial.device field" Url="html/c04b8b05-2f6b-1e48-7d7a-445b3fcdd522.htm" />
+  <HelpKINode Title="SimpleMaterial.Dispose method" Url="html/17138ab2-91ae-5442-a15b-ccd6492850bf.htm" />
+  <HelpKINode Title="SimpleMaterial.Initialize method" Url="html/2510179a-0f91-04e6-2658-62ece9447ae9.htm" />
+  <HelpKINode Title="SimpleMaterial.pixelConstantBuffer field" Url="html/579a27c1-3b75-851d-07ee-fa4cfa559e2f.htm" />
+  <HelpKINode Title="SimpleMaterial.pixelShader field" Url="html/452b2086-cabf-362f-3b63-c356581441e5.htm" />
+  <HelpKINode Title="SimpleMaterial.pixelShaderByteCode field" Url="html/3402739d-07c4-e288-22bc-f70276fa4e90.htm" />
+  <HelpKINode Title="SimpleMaterial.pixelShaderData field" Url="html/93c30af5-4ac3-ff94-5bd7-3650af29cb48.htm" />
+  <HelpKINode Title="SimpleMaterial.PixelShaderData property" Url="html/3323a7fa-6cff-73db-e691-f9f6207918ec.htm" />
+  <HelpKINode Title="SimpleMaterial.PixelShaderDataStruct structure" Url="html/00bd5bf3-600c-ed45-d867-154c2554a589.htm" />
+  <HelpKINode Title="SimpleMaterial.PixelShaderDataStruct.diffuseColor field" Url="html/fb50ddf9-aa38-330e-1b9f-d7c77b3aa0a9.htm" />
+  <HelpKINode Title="SimpleMaterial.PixelShaderDataStruct.DiffuseColor property" Url="html/ed41c468-44df-c9b5-d8f0-eb663d11de27.htm" />
+  <HelpKINode Title="SimpleMaterial.PixelShaderDataStruct.emissionColor field" Url="html/e68ed04c-f2fc-3e14-b81b-68ee8be33d1c.htm" />
+  <HelpKINode Title="SimpleMaterial.PixelShaderDataStruct.EmissionColor property" Url="html/1eee0d83-335f-8048-c3a4-7864c9237dcb.htm" />
+  <HelpKINode Title="SimpleMaterial.PixelShaderDataStruct.lightPos field" Url="html/af0d4217-1074-da7d-e9be-f2950afb4e05.htm" />
+  <HelpKINode Title="SimpleMaterial.PixelShaderDataStruct.LightPos property" Url="html/58acada5-815e-d225-03bf-400db91a755b.htm" />
+  <HelpKINode Title="SimpleMaterial.PixelShaderEntryPoint property" Url="html/1e73afe4-9242-c036-16a2-7823711a65a2.htm" />
+  <HelpKINode Title="SimpleMaterial.PixelShaderPath property" Url="html/369c2226-c1b3-b2d0-12af-9650365f62e7.htm" />
+  <HelpKINode Title="SimpleMaterial.PixelShaderProfile property" Url="html/7aa6c66f-228b-dae6-e63e-337a540223f0.htm" />
+  <HelpKINode Title="SimpleMaterial.Render method" Url="html/9c05e8a5-693e-eaf4-3cdc-ab0a4e8d1355.htm" />
+  <HelpKINode Title="SimpleMaterial.SetMatrices method" Url="html/a3820379-1ff1-70fb-80fc-9c76c1ef3ec9.htm" />
+  <HelpKINode Title="SimpleMaterial.SimpleMaterial constructor" Url="html/d9206688-adca-ad9a-6b43-e3684dda7e50.htm" />
+  <HelpKINode Title="SimpleMaterial.vertexConstantBuffer field" Url="html/79cc28c0-33bf-ae9e-3402-bacc930e7ce0.htm" />
+  <HelpKINode Title="SimpleMaterial.vertexShader field" Url="html/e7952127-75a8-718d-728b-0c8f6773a7e1.htm" />
+  <HelpKINode Title="SimpleMaterial.vertexShaderByteCode field" Url="html/3f96f565-4526-6e96-0c26-89448681c3b7.htm" />
+  <HelpKINode Title="SimpleMaterial.VertexShaderByteCode property" Url="html/f51bb915-e2ca-b5a9-700f-4ea0c30cb9db.htm" />
+  <HelpKINode Title="SimpleMaterial.vertexShaderData field" Url="html/799da2a9-0605-60d4-e63b-8ad82ced0eb4.htm" />
+  <HelpKINode Title="SimpleMaterial.VertexShaderData property" Url="html/ebc17398-fe0b-8e2b-d895-382f8cb30458.htm" />
+  <HelpKINode Title="SimpleMaterial.VertexShaderDataStruct structure" Url="html/7daa303d-1c97-a96d-12aa-46cedbded1b0.htm" />
+  <HelpKINode Title="SimpleMaterial.VertexShaderDataStruct.world field" Url="html/92ec7ddd-58e7-5d94-72ae-1af52c700d87.htm" />
+  <HelpKINode Title="SimpleMaterial.VertexShaderDataStruct.worldView field" Url="html/ed63c6e1-60de-e40c-f9c9-89e3761a6a8d.htm" />
+  <HelpKINode Title="SimpleMaterial.VertexShaderDataStruct.worldViewProj field" Url="html/232a7fa8-5426-09cf-10d3-33093a1cd2d5.htm" />
+  <HelpKINode Title="SimpleMaterial.VertexShaderEntryPoint property" Url="html/16da4670-a4c0-6b49-0619-fd1b6ca48f57.htm" />
+  <HelpKINode Title="SimpleMaterial.VertexShaderPath property" Url="html/0fb02c1c-4891-0dee-a533-c56414ccaeb1.htm" />
+  <HelpKINode Title="SimpleMaterial.VertexShaderProfile property" Url="html/8b8fd614-297a-0fd9-e5d7-cf7bfd69e699.htm" />
+  <HelpKINode Title="SimpleTransformAnimationComponent class">
+    <HelpKINode Title="SimpleTransformAnimationComponent Class" Url="html/5532859f-bc5c-1d11-d5cf-df6777b0af44.htm" />
+    <HelpKINode Title="constructor" Url="html/1e0ff275-fd94-9bc7-4e50-3aab8d833188.htm" />
+    <HelpKINode Title="methods" Url="html/6167ed82-c475-d4ae-9aa9-2085acacb2f5.htm" />
+    <HelpKINode Title="properties" Url="html/4d186e16-e082-10aa-52c6-d2f09614448e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SimpleTransformAnimationComponent.MovementSpeed property" Url="html/b2467bdc-cee0-9008-c0fd-58266c386aa0.htm" />
+  <HelpKINode Title="SimpleTransformAnimationComponent.RotationSpeed property" Url="html/baf6a836-43ed-da9c-efb9-9a8a48ca29de.htm" />
+  <HelpKINode Title="SimpleTransformAnimationComponent.SimpleTransformAnimationComponent constructor" Url="html/1e0ff275-fd94-9bc7-4e50-3aab8d833188.htm" />
+  <HelpKINode Title="SimpleTransformAnimationComponent.Update method" Url="html/43d1caf6-6048-e782-487a-3d7570db96a4.htm" />
+  <HelpKINode Title="Start method" Url="html/77f4beb4-7e16-b85d-6706-e3f089d4dff9.htm" />
+  <HelpKINode Title="swapChain field" Url="html/27c2723f-a899-b0bf-d60a-790efd489ffd.htm" />
+  <HelpKINode Title="swapChainDescription field" Url="html/07b8bf0a-f4f8-1c59-ce22-6853fbc774d5.htm" />
+  <HelpKINode Title="Time class">
+    <HelpKINode Title="Time Class" Url="html/8a612532-4085-b00f-8c87-c539c836a11e.htm" />
+    <HelpKINode Title="methods" Url="html/74b4e09d-896f-97f1-bc9d-53754b8aee8a.htm" />
+    <HelpKINode Title="properties" Url="html/cfbd91a8-4933-46cf-531c-b69fbf7c7a37.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Time.DeltaTime property" Url="html/f7e4493f-1f95-a08e-2ac1-9029b27b840c.htm" />
+  <HelpKINode Title="Time.Elapsed property" Url="html/7f19d896-c5ab-c2bf-831b-5e8434a905c4.htm" />
+  <HelpKINode Title="Time.NextFrame method" Url="html/3ebdc435-7257-0390-64e5-c30c1a812b41.htm" />
+  <HelpKINode Title="Time.ResetTime method" Url="html/774901cd-1db7-bbd1-50d3-243bd7315b4a.htm" />
+  <HelpKINode Title="Time.Start method" Url="html/77f4beb4-7e16-b85d-6706-e3f089d4dff9.htm" />
+  <HelpKINode Title="Transform class">
+    <HelpKINode Title="Transform Class" Url="html/6cb64a56-7da0-cc23-02c2-eae82e8cf1c5.htm" />
+    <HelpKINode Title="constructor" Url="html/74fb3311-e71d-3c65-3f8b-d2affc35a08f.htm" />
+    <HelpKINode Title="fields" Url="html/41e84a3f-54c8-5915-320e-6a3bbc495cc3.htm" />
+    <HelpKINode Title="methods" Url="html/e1c7bd42-954b-3029-c1d3-bb2b6928c5f2.htm" />
+    <HelpKINode Title="properties" Url="html/e9a445d7-8d09-6e80-028f-797e44515322.htm" />
+  </HelpKINode>
+  <HelpKINode Title="transform field" Url="html/a27f1120-0c30-d150-03c6-22cb7910e26f.htm" />
+  <HelpKINode Title="Transform property" Url="html/2df780a6-f3a0-3567-1dce-0418ba92c409.htm" />
+  <HelpKINode Title="Transform.GetSerializableTransform method" Url="html/afb643cd-cf8e-36e2-e007-468d4e718fbf.htm" />
+  <HelpKINode Title="Transform.Id property" Url="html/64d5dbd1-7621-0ace-6b24-45184de5c2ee.htm" />
+  <HelpKINode Title="Transform.IsDirty property" Url="html/7313e442-7806-c3ed-e73a-96d19692fb0e.htm" />
+  <HelpKINode Title="Transform.LocalPosition property" Url="html/a30b9dad-098f-9b62-786f-e41c94f38a73.htm" />
+  <HelpKINode Title="Transform.LocalPositionX property" Url="html/68136cb5-4584-fd6c-696d-90ab9d814bbc.htm" />
+  <HelpKINode Title="Transform.LocalPositionY property" Url="html/06dd9502-b62b-9e82-09bb-814dc195c311.htm" />
+  <HelpKINode Title="Transform.LocalPositionZ property" Url="html/b578a95c-7a6d-bed7-71ed-55f67c2ae938.htm" />
+  <HelpKINode Title="Transform.LocalRotation property" Url="html/0919ecc0-e011-e5b2-5fc4-7e5d9520a539.htm" />
+  <HelpKINode Title="Transform.LocalRotationX property" Url="html/3bc19e5b-430e-7aa6-e4d1-dbe7b863224e.htm" />
+  <HelpKINode Title="Transform.LocalRotationY property" Url="html/567d694e-f9cb-0c65-2955-be53722bf3d9.htm" />
+  <HelpKINode Title="Transform.LocalRotationZ property" Url="html/f76e1961-fe5b-cb18-d726-f46782dfb7c6.htm" />
+  <HelpKINode Title="Transform.LocalScale property" Url="html/bbed4d3c-376a-93b9-38d9-bcae5b2f3610.htm" />
+  <HelpKINode Title="Transform.LocalScaleX property" Url="html/9870f253-526a-cd15-f8d2-1b329dac9b7d.htm" />
+  <HelpKINode Title="Transform.LocalScaleY property" Url="html/79780048-7bd7-a0c4-1651-0f30c2855bc6.htm" />
+  <HelpKINode Title="Transform.LocalScaleZ property" Url="html/d2d5f518-2b81-1711-7202-c495ade32a25.htm" />
+  <HelpKINode Title="Transform.parent field" Url="html/5083c22f-40cb-087f-35c7-9836e913e396.htm" />
+  <HelpKINode Title="Transform.Transform constructor" Url="html/74fb3311-e71d-3c65-3f8b-d2affc35a08f.htm" />
+  <HelpKINode Title="Transform.TransformMatrix property" Url="html/f81b8cac-38fa-77c9-055b-3be4c9b64d97.htm" />
+  <HelpKINode Title="TransformID property" Url="html/dfaacbad-ac5d-aeef-de17-8e97c91d9e7b.htm" />
+  <HelpKINode Title="TransformMatrix property" Url="html/f81b8cac-38fa-77c9-055b-3be4c9b64d97.htm" />
+  <HelpKINode Title="Update method">
+    <HelpKINode Title="Hierarchy.Update Method " Url="html/2114e421-a4bd-0ff9-0ec7-1296395502f0.htm" />
+    <HelpKINode Title="SceneObject.Update Method " Url="html/61b19cb5-c9f6-c235-1b07-70d76a151e16.htm" />
+    <HelpKINode Title="SceneObjectComponent.Update Method " Url="html/da4e3393-50d7-6348-f101-71af2ac241bb.htm" />
+    <HelpKINode Title="SimpleTransformAnimationComponent.Update Method " Url="html/43d1caf6-6048-e782-487a-3d7570db96a4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UpdateChildrenRecursively method" Url="html/edf4c272-131b-a8d8-229d-8639e7683715.htm" />
+  <HelpKINode Title="VertexBuffer property" Url="html/e6e54889-edbd-6132-8dd9-d741f8c9f6ef.htm" />
+  <HelpKINode Title="vertexConstantBuffer field" Url="html/79cc28c0-33bf-ae9e-3402-bacc930e7ce0.htm" />
+  <HelpKINode Title="VertexCount property" Url="html/2248687e-a29d-c59d-e51a-e6e028327993.htm" />
+  <HelpKINode Title="vertexShader field" Url="html/e7952127-75a8-718d-728b-0c8f6773a7e1.htm" />
+  <HelpKINode Title="vertexShaderByteCode field" Url="html/3f96f565-4526-6e96-0c26-89448681c3b7.htm" />
+  <HelpKINode Title="VertexShaderByteCode property">
+    <HelpKINode Title="IMaterial.VertexShaderByteCode Property " Url="html/b7225429-f124-26d6-ba74-756c08bb804e.htm" />
+    <HelpKINode Title="SimpleMaterial.VertexShaderByteCode Property " Url="html/f51bb915-e2ca-b5a9-700f-4ea0c30cb9db.htm" />
+  </HelpKINode>
+  <HelpKINode Title="vertexShaderData field" Url="html/799da2a9-0605-60d4-e63b-8ad82ced0eb4.htm" />
+  <HelpKINode Title="VertexShaderData property" Url="html/ebc17398-fe0b-8e2b-d895-382f8cb30458.htm" />
+  <HelpKINode Title="VertexShaderDataStruct structure">
+    <HelpKINode Title="fields" Url="html/4c203079-7d17-39f6-6501-da60144a81fd.htm" />
+    <HelpKINode Title="methods" Url="html/cf08a3dd-3638-d249-4db5-f752044d392b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VertexShaderEntryPoint property" Url="html/16da4670-a4c0-6b49-0619-fd1b6ca48f57.htm" />
+  <HelpKINode Title="VertexShaderPath property" Url="html/0fb02c1c-4891-0dee-a533-c56414ccaeb1.htm" />
+  <HelpKINode Title="VertexShaderProfile property" Url="html/8b8fd614-297a-0fd9-e5d7-cf7bfd69e699.htm" />
+  <HelpKINode Title="VertexSize property" Url="html/651527ea-3c17-0229-0f40-28ad530eb979.htm" />
+  <HelpKINode Title="ViewMatrix property" Url="html/3a39e664-0ea7-6245-d7ed-6201a5f13afb.htm" />
+  <HelpKINode Title="W property" Url="html/88f80c5f-c99d-75e6-b5e2-68effd37a526.htm" />
+  <HelpKINode Title="world field" Url="html/92ec7ddd-58e7-5d94-72ae-1af52c700d87.htm" />
+  <HelpKINode Title="worldView field" Url="html/ed63c6e1-60de-e40c-f9c9-89e3761a6a8d.htm" />
+  <HelpKINode Title="worldViewProj field" Url="html/232a7fa8-5426-09cf-10d3-33093a1cd2d5.htm" />
+  <HelpKINode Title="X property">
+    <HelpKINode Title="SerializableVector3.X Property " Url="html/26a6cb29-7743-9715-b101-512d1fe8921e.htm" />
+    <HelpKINode Title="SerializableVector4.X Property " Url="html/ca575a98-9922-465b-46b9-655db8ec1e03.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Y property">
+    <HelpKINode Title="SerializableVector3.Y Property " Url="html/29d4b79d-d495-2d8a-b5e5-80af0d7b5038.htm" />
+    <HelpKINode Title="SerializableVector4.Y Property " Url="html/6c28d3c5-330a-0288-b7d6-90e2e7d39dc0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Z property">
+    <HelpKINode Title="SerializableVector3.Z Property " Url="html/d1f1ba19-6b1b-4707-5dd5-0177df00f173.htm" />
+    <HelpKINode Title="SerializableVector4.Z Property " Url="html/01c2818a-96fa-9dd2-f9dd-3d425fc7cfe8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="zFar field" Url="html/a550fd00-0b2e-49ee-f02b-19cd2b8a50d8.htm" />
+  <HelpKINode Title="zNear field" Url="html/febb957f-914f-8eb0-8399-9a2f9ad13e47.htm" />
+</HelpKI>

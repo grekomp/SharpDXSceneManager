@@ -12,19 +12,51 @@ using Device = SharpDX.Direct3D11.Device;
 
 namespace SceneManager
 {
+	/// <summary>
+	/// Handles all the DirectX resources necessary for rendering.
+	/// 
+	/// For more info about any of the DirectX specific classes, see the DirectX documentation.
+	/// </summary>
 	public class Renderer
 	{
+		/// <summary>
+		/// DirectX device used by this renderer.
+		/// </summary>
 		public Device device;
+		/// <summary>
+		/// DirectX device context used by this renderer.
+		/// </summary>
 		public DeviceContext context;
+		/// <summary>
+		/// The windows form that this renderer renders to.
+		/// </summary>
 		public Control form;
 
+		/// <summary>
+		/// The depth stencil view used for depth testing.
+		/// </summary>
 		public DepthStencilView depthView;
+		/// <summary>
+		/// The target DirectX render view.
+		/// </summary>
 		public RenderTargetView renderView;
 
+		/// <summary>
+		/// Swap chain description used by this renderer's swap chain.
+		/// </summary>
 		public SwapChainDescription swapChainDescription;
+		/// <summary>
+		/// The DirectX swap chain used by this renderer.
+		/// </summary>
 		public SwapChain swapChain;
 
+		/// <summary>
+		/// The texture used as a backBuffer for rendering.
+		/// </summary>
 		public Texture2D backBuffer;
+		/// <summary>
+		/// The DXGI factory used by this renderer.
+		/// </summary>
 		public Factory factory;
 
 		#region Initialization
@@ -80,12 +112,6 @@ namespace SceneManager
 			});
 			depthView = new DepthStencilView(device, depthBuffer);
 
-
-			Init();
-		}
-
-		public void Init()
-		{
 			context.Rasterizer.SetViewports(new Viewport(0, 0, form.Width, form.Height, 0.0f, 1.0f));
 			context.OutputMerger.SetTargets(depthView, renderView);
 		}
@@ -93,11 +119,20 @@ namespace SceneManager
 
 
 		#region Rendering
-		public void ClearDepthStencilView()
+		/// <summary>
+		/// Clears the render view.
+		/// </summary>
+		public void ClearViews()
+		{
+			ClearDepthStencilView();
+			ClearRenderTargetView();
+		}
+
+		private void ClearDepthStencilView()
 		{
 			context.ClearDepthStencilView(depthView, DepthStencilClearFlags.Depth, 1.0f, 0);
 		}
-		public void ClearRenderTargetView()
+		private void ClearRenderTargetView()
 		{
 			context.ClearRenderTargetView(renderView, Color.Black);
 		}
@@ -105,6 +140,9 @@ namespace SceneManager
 
 
 		#region Clean up
+		/// <summary>
+		/// Releases all managed resources.
+		/// </summary>
 		public void Dispose()
 		{
 			renderView.Dispose();

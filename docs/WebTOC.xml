@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="b8212eda-19a7-458a-8773-8cff8c03d4da" Title="SceneManager" Url="html/f2e76e95-2ce2-76ba-1342-4b12dca48b07.htm">
+    <HelpTOCNode Id="29d111f6-b13d-4b97-ac05-03a542fd0a5e" Title="Camera Class" Url="html/bd038d03-2ff1-0540-c6aa-40edd14d8d1c.htm">
+      <HelpTOCNode Title="Camera Constructor " Url="html/20146169-595c-886b-5ad1-d68a4fea7430.htm" />
+      <HelpTOCNode Id="07b3913c-4147-4117-93b3-bed586136d5a" Title="Camera Properties" Url="html/edcf5069-1952-0995-1151-857a1ba18535.htm">
+        <HelpTOCNode Title="ProjMatrix Property " Url="html/728bfc5f-682e-62cf-1f76-c3a9cfcc29c8.htm" />
+        <HelpTOCNode Title="ViewMatrix Property " Url="html/3a39e664-0ea7-6245-d7ed-6201a5f13afb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Camera Methods" Url="html/9d110f73-04ab-c9d6-e37d-ae91b13b0c87.htm" />
+      <HelpTOCNode Id="1378f10f-d9f8-4119-8c50-7d7da64a275a" Title="Camera Fields" Url="html/cc04de14-d438-5cfb-abcb-a4978a3bcfea.htm">
+        <HelpTOCNode Title="aspectRatio Field" Url="html/c9a40573-72a5-dd59-639c-57e879340429.htm" />
+        <HelpTOCNode Title="cameraLookAt Field" Url="html/466f4531-ce29-3784-c6c8-4f64e8b7871b.htm" />
+        <HelpTOCNode Title="cameraPosition Field" Url="html/bcb60bd1-eff5-6f3b-5ba6-1b8b4e56a40f.htm" />
+        <HelpTOCNode Title="fov Field" Url="html/20ab2d51-6749-f26a-c232-4e96c2ca8997.htm" />
+        <HelpTOCNode Title="zFar Field" Url="html/a550fd00-0b2e-49ee-f02b-19cd2b8a50d8.htm" />
+        <HelpTOCNode Title="zNear Field" Url="html/febb957f-914f-8eb0-8399-9a2f9ad13e47.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8bdaedf4-75fc-4a3f-a276-93e6decf8779" Title="Hierarchy Class" Url="html/e8e4cf8c-8c2c-2612-33fe-76d670714f84.htm">
+      <HelpTOCNode Title="Hierarchy Constructor " Url="html/32a8f4c0-3783-015f-e6e9-d995d01b2f3b.htm" />
+      <HelpTOCNode Id="161fed68-be77-46c5-a2f3-4ac8a455b6ad" Title="Hierarchy Methods" Url="html/dbb43716-f83f-0176-09ef-694f6cc53fd9.htm">
+        <HelpTOCNode Title="Add Method " Url="html/fbd2f580-b876-d808-332c-2494f13483a2.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/2358763a-ffd9-e3f6-b627-65dd19e02d99.htm" />
+        <HelpTOCNode Title="Remove Method " Url="html/8a981b24-fe42-68d7-1bc2-3c01a7a89d19.htm" />
+        <HelpTOCNode Title="Render Method " Url="html/7895711a-f335-60de-1d60-72643c99674b.htm" />
+        <HelpTOCNode Title="Update Method " Url="html/2114e421-a4bd-0ff9-0ec7-1296395502f0.htm" />
+        <HelpTOCNode Title="UpdateChildrenRecursively Method " Url="html/edf4c272-131b-a8d8-229d-8639e7683715.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="39f91b39-dc24-4115-8efa-517568c46da4" Title="Hierarchy Fields" Url="html/5fca8415-00e4-fd9f-7185-24ae2418f24f.htm">
+        <HelpTOCNode Title="sceneObjects Field" Url="html/3e052ea9-9a2f-5b1f-03c5-2bed45978ac6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2d439fbc-add7-44d9-a779-c5d78751e563" Title="IMaterial Interface" Url="html/a67b2ab5-aeb1-f046-b3e2-90b8992d3b90.htm">
+      <HelpTOCNode Id="b1809e80-6c66-4244-91b4-40e6c7a15bf9" Title="IMaterial Properties" Url="html/2b678a94-4c76-9dbd-e9db-bdb82228a3d0.htm">
+        <HelpTOCNode Title="VertexShaderByteCode Property " Url="html/b7225429-f124-26d6-ba74-756c08bb804e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4bcff721-1cf0-4d7a-9f91-55a0407533f4" Title="IMaterial Methods" Url="html/891cc729-8958-640f-dc80-6e69336dcc86.htm">
+        <HelpTOCNode Title="CreateInstance Method " Url="html/89700600-8cd1-ba48-3aa5-4947072e0888.htm" />
+        <HelpTOCNode Title="Initialize Method " Url="html/b4655a90-6d6b-561c-1807-c755be1750cb.htm" />
+        <HelpTOCNode Id="44e13138-ee24-4c07-ae84-8523c7c4997f" Title="Render Method " Url="html/34e9da04-43a7-03bf-a0c3-276941ac46e1.htm">
+          <HelpTOCNode Title="Render Method (SceneObject, Camera, Renderer)" Url="html/54a76f5c-43ac-babd-9ed6-5a48adee2f1f.htm" />
+          <HelpTOCNode Title="Render Method (Model, Matrix, Camera, Renderer)" Url="html/40fcd225-9ef7-5f27-8b6d-b46d7dfc0295.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="06dd8d27-6162-4636-9072-48bcb3b0ad86" Title="Model Class" Url="html/e6ac414e-1d5c-f2cb-ec59-6fedda005a66.htm">
+      <HelpTOCNode Title="Model Constructor " Url="html/7a73f556-e61d-337f-408f-8f728824b553.htm" />
+      <HelpTOCNode Id="7e7213d0-9607-4b05-ae2c-a85300ae510d" Title="Model Properties" Url="html/1e0e3557-96c7-5308-6767-d57c64890d31.htm">
+        <HelpTOCNode Title="AABoxCentre Property " Url="html/778c5ad6-b10d-cc72-6bd0-131e5595ec94.htm" />
+        <HelpTOCNode Title="AABoxMax Property " Url="html/00ff8a36-1dc5-04ce-8f17-7e7fc9ec1121.htm" />
+        <HelpTOCNode Title="AABoxMin Property " Url="html/8141d0ed-eb1d-f453-4b3c-c83a4c77f607.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3d700abd-e387-44ab-a8c6-7d606a397b98" Title="Model Methods" Url="html/82a242fb-8a17-62e5-4986-31daabc26313.htm">
+        <HelpTOCNode Title="AddMesh Method " Url="html/bcbd8751-cf29-57c7-d993-5d3ddbc20d3c.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/077aaa2a-7522-1afa-bade-2e82d41a1799.htm" />
+        <HelpTOCNode Title="Render Method " Url="html/c00f44c9-749a-8a49-6d2a-b1f4e95355c7.htm" />
+        <HelpTOCNode Title="SetAABox Method " Url="html/3ec72347-dae6-a94a-e8ea-b734581dc810.htm" />
+        <HelpTOCNode Title="SetInputLayout Method " Url="html/76fae7cc-927d-809f-3550-a75be6661343.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e583db4e-978b-43b0-bea5-ec5fb6655f0f" Title="Model Fields" Url="html/4f343a0a-b680-08ec-20fc-9aecc1206ca5.htm">
+        <HelpTOCNode Title="basePath Field" Url="html/d5ac00eb-ed02-e6e2-fcdf-25ecf78cf92d.htm" />
+        <HelpTOCNode Title="modelPath Field" Url="html/4792f23b-2589-cd19-a88f-f79a1cd7b4c3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6d8bc7a6-9a40-48fc-803d-7d3b507a827a" Title="ModelMesh Class" Url="html/8e4fc40c-c6e7-e4d0-263e-61a0c9901bcb.htm">
+      <HelpTOCNode Title="ModelMesh Constructor " Url="html/cdd4d2b0-067d-ff9b-2827-ad475e29ca3d.htm" />
+      <HelpTOCNode Id="de5ee559-233f-4393-961b-c9da809f2884" Title="ModelMesh Properties" Url="html/e63579e8-d7b1-8f81-55d1-7a55d506f5c2.htm">
+        <HelpTOCNode Title="DiffuseTexture Property " Url="html/8f8124c6-088f-1b40-10bd-c1f471ee6799.htm" />
+        <HelpTOCNode Title="DiffuseTextureView Property " Url="html/fd0465e3-3974-1da4-f995-423bef548e1c.htm" />
+        <HelpTOCNode Title="IndexBuffer Property " Url="html/d7dce363-8d20-f1e5-4a27-956f70424572.htm" />
+        <HelpTOCNode Title="IndexCount Property " Url="html/056c1d61-1eea-1be3-3434-f8703f8d224f.htm" />
+        <HelpTOCNode Title="InputElements Property " Url="html/69b936c3-1b7a-9a42-3e5e-af40bc5cc170.htm" />
+        <HelpTOCNode Title="InputLayout Property " Url="html/ea2d34b7-2f92-91f3-e032-1dff519fd9d1.htm" />
+        <HelpTOCNode Title="PrimitiveCount Property " Url="html/3c2bacf2-2c21-0a07-d621-7b9e08392118.htm" />
+        <HelpTOCNode Title="PrimitiveTopology Property " Url="html/28dfd717-8359-dac1-48ac-ac3b07b5e9fe.htm" />
+        <HelpTOCNode Title="VertexBuffer Property " Url="html/e6e54889-edbd-6132-8dd9-d741f8c9f6ef.htm" />
+        <HelpTOCNode Title="VertexCount Property " Url="html/2248687e-a29d-c59d-e51a-e6e028327993.htm" />
+        <HelpTOCNode Title="VertexSize Property " Url="html/651527ea-3c17-0229-0f40-28ad530eb979.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e9f4eb37-2d2d-4d0a-ade4-0b7e31951b8e" Title="ModelMesh Methods" Url="html/03b63801-2e23-8bf2-3182-4ae2939ccb77.htm">
+        <HelpTOCNode Title="AddTextureDiffuse Method " Url="html/f8db803e-16e8-a57d-d385-31c50b50e295.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/59a3a9fe-4d1c-0386-1280-b1262979f6dd.htm" />
+        <HelpTOCNode Title="SetInputLayout Method " Url="html/3b32a6b4-f86d-8e15-7e45-d5412bba441f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fe1f150c-de8a-4fb9-a42d-62299da55be1" Title="Renderer Class" Url="html/f201a213-b571-d591-a3ec-89fb695b08ba.htm">
+      <HelpTOCNode Title="Renderer Constructor " Url="html/5c6a28c9-9c2e-1371-fecf-130b6a2697ea.htm" />
+      <HelpTOCNode Id="fe35a9ab-323d-4a67-8076-21e883c4f839" Title="Renderer Methods" Url="html/f06ee870-74ca-3a17-9cbb-9e45a2bc926a.htm">
+        <HelpTOCNode Title="ClearViews Method " Url="html/7db99748-1763-a3b0-53d1-489b26a3bc3d.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/4eac213b-f505-d55a-a6ea-7ced299edfc2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="dd0d2e3e-259a-49aa-a833-8fbac6f3a1ec" Title="Renderer Fields" Url="html/c727a802-cafe-3948-e922-aefc3edfc99e.htm">
+        <HelpTOCNode Title="backBuffer Field" Url="html/8e287277-b076-0139-313f-c1d7cced8b9f.htm" />
+        <HelpTOCNode Title="context Field" Url="html/81d58877-768e-3da0-c2af-12b539d5ee79.htm" />
+        <HelpTOCNode Title="depthView Field" Url="html/b2c4783f-c6bf-6cd7-e4b6-5e10e08c6d26.htm" />
+        <HelpTOCNode Title="device Field" Url="html/49d1771a-98ef-77ca-16da-6db8aaf46c3a.htm" />
+        <HelpTOCNode Title="factory Field" Url="html/671b2046-14d6-a7f4-f4c5-3067e708d426.htm" />
+        <HelpTOCNode Title="form Field" Url="html/b9d4daa8-3184-5d02-c906-502d9856f161.htm" />
+        <HelpTOCNode Title="renderView Field" Url="html/dad48908-fb58-1d52-720d-863fc3c9cd75.htm" />
+        <HelpTOCNode Title="swapChain Field" Url="html/27c2723f-a899-b0bf-d60a-790efd489ffd.htm" />
+        <HelpTOCNode Title="swapChainDescription Field" Url="html/07b8bf0a-f4f8-1c59-ce22-6853fbc774d5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="84793c1d-c576-4a82-8269-a517bcd87352" Title="SavedSceneObject Class" Url="html/ce6e3ca6-6a97-5b80-ee54-815d92bdf071.htm">
+      <HelpTOCNode Title="SavedSceneObject Constructor " Url="html/e599be62-6e4f-66b0-735b-e59f8531ad3f.htm" />
+      <HelpTOCNode Id="c6b7d7af-5dfb-484b-9cf2-383eea33e319" Title="SavedSceneObject Properties" Url="html/59458c0b-dd9a-aa1d-88d6-61a121bd5aa6.htm">
+        <HelpTOCNode Title="AnimationComponent Property " Url="html/d94fd950-69bd-8ed8-d7ef-583c161f0274.htm" />
+        <HelpTOCNode Title="Components Property " Url="html/bdf02dd0-b93f-783d-c2b8-b1940af236d6.htm" />
+        <HelpTOCNode Title="Material Property " Url="html/78dbddfd-d4a6-6bff-99f8-20ce494d4db8.htm" />
+        <HelpTOCNode Title="ModelPath Property " Url="html/f6592fb5-1f1b-e95e-bd6a-98fa5b24ffbb.htm" />
+        <HelpTOCNode Title="ObjectID Property " Url="html/15aa715d-66b1-9934-8e48-e14d1eae38a3.htm" />
+        <HelpTOCNode Title="Transform Property " Url="html/2df780a6-f3a0-3567-1dce-0418ba92c409.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SavedSceneObject Methods" Url="html/93e1196c-3301-fa2c-96a7-3437a15ac5c7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6ae844f3-0b9e-4f0c-ab95-5269790cfdb3" Title="SceneManager Class" Url="html/4bd0263a-022f-95eb-e537-7d8826848d02.htm">
+      <HelpTOCNode Title="SceneManager Constructor " Url="html/a3dd879c-08e5-973f-0bf4-10db4e76c90b.htm" />
+      <HelpTOCNode Id="a5d25c46-bee6-43c4-8642-4723e2d4764b" Title="SceneManager Methods" Url="html/0df576f0-1bcb-bc1c-c490-d0dea6a10bc2.htm">
+        <HelpTOCNode Title="LoadAndReplaceHierarchy Method " Url="html/d936c07c-c9f6-73b1-676d-1c2ef143642b.htm" />
+        <HelpTOCNode Title="LoadAndReplaceHierarchyAbsolute Method " Url="html/6c5b443a-09d4-8037-6123-761492955b96.htm" />
+        <HelpTOCNode Title="LoadAndReplaceHierarchyRelative Method " Url="html/e5874f0d-ae4d-01d3-e1dd-5b52d97b7981.htm" />
+        <HelpTOCNode Title="SaveCurrentHierarchy Method " Url="html/9e1deebb-ef79-9c6b-28f2-81c9c08453c7.htm" />
+        <HelpTOCNode Title="SaveCurrentHierarchyAbsolute Method " Url="html/91d3b332-8400-c9a2-b738-35e42af4b55e.htm" />
+        <HelpTOCNode Title="SaveCurrentHierarchyRelative Method " Url="html/8f423e00-2a70-3246-e4fb-807fe8480fcb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="30b5d396-d9b2-46f7-8e55-28e071dae257" Title="SceneManager Fields" Url="html/51656daf-7e32-d4a3-59fe-f6fa852d384b.htm">
+        <HelpTOCNode Title="currentRenderer Field" Url="html/0ebfa226-52d6-b125-dbe3-0c81b322c7cd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6934361a-4808-45f2-b78f-e30097aa8d58" Title="SceneObject Class" Url="html/4ac70f70-b06a-c0d8-e307-b934e79ecea0.htm">
+      <HelpTOCNode Id="89e36d7a-a09e-4157-b4b3-5d4d1b264fbb" Title="SceneObject Constructor " Url="html/52015107-cd8c-2df9-d4d1-ae46856e2ee6.htm">
+        <HelpTOCNode Title="SceneObject Constructor " Url="html/32115fff-d8e5-526a-1887-cb71cf425c16.htm" />
+        <HelpTOCNode Title="SceneObject Constructor (SavedSceneObject)" Url="html/8cf8baf7-1dff-13f5-e1ab-32262edd1132.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="54b7c5fe-a440-4743-9ca6-63b39b327ddc" Title="SceneObject Properties" Url="html/c14cbf19-3fb4-e4de-b621-6909d03e6c7d.htm">
+        <HelpTOCNode Title="Id Property " Url="html/3b36e508-34e0-c218-9315-fa5d2f14d503.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d95aa795-781a-4079-a09c-770b62c1ef6d" Title="SceneObject Methods" Url="html/4ee179c5-856d-adcc-fa98-0cdfa2c29de8.htm">
+        <HelpTOCNode Title="AddComponent Method " Url="html/4628fc72-9dcd-b6e6-4d50-737a6c2b70c7.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/552d707f-e8dd-4760-9a97-7b2f7107450c.htm" />
+        <HelpTOCNode Title="GetSerializableObject Method " Url="html/e5ef8bd5-ce7f-47fb-4741-0396a7451ed2.htm" />
+        <HelpTOCNode Title="Render Method " Url="html/5f221fd8-29e3-c6f2-6ae2-ab3d2c87a62c.htm" />
+        <HelpTOCNode Title="Update Method " Url="html/61b19cb5-c9f6-c235-1b07-70d76a151e16.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6b430e00-443e-45bd-928a-23215e30adbc" Title="SceneObject Fields" Url="html/a81aa80f-ad49-1ae5-615c-555afd0dcb91.htm">
+        <HelpTOCNode Title="animationComponent Field" Url="html/0e83a87e-7d0d-75e1-c2c7-672d6819d8f4.htm" />
+        <HelpTOCNode Title="components Field" Url="html/d1bd3de5-075f-4f03-6998-981132b1aa55.htm" />
+        <HelpTOCNode Title="isActive Field" Url="html/58e71637-1a90-8d81-4e90-505a3ee2feec.htm" />
+        <HelpTOCNode Title="material Field" Url="html/a571e15f-6a87-6c0b-3ce9-5c7896d726d0.htm" />
+        <HelpTOCNode Title="model Field" Url="html/2d6a6546-dbf7-50d7-a198-ee2207e5d5ef.htm" />
+        <HelpTOCNode Title="transform Field" Url="html/a27f1120-0c30-d150-03c6-22cb7910e26f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ee0cc712-9788-4729-9575-997b72f3fba6" Title="SceneObjectComponent Class" Url="html/b54c3b32-3f28-d561-92a1-952c97b156f1.htm">
+      <HelpTOCNode Title="SceneObjectComponent Constructor " Url="html/0869d036-9a3e-3514-40ed-54bd367b6316.htm" />
+      <HelpTOCNode Id="afef2e9e-cbd6-4aa9-9c78-a082160c5678" Title="SceneObjectComponent Properties" Url="html/f0b25066-2427-60e2-a7eb-aa3a23669fa7.htm">
+        <HelpTOCNode Title="SceneObject Property " Url="html/f237333a-0f08-3dd4-c10f-1d077b47d77a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="160d5b07-9467-4ab5-8676-1602d2f77c5a" Title="SceneObjectComponent Methods" Url="html/fdb42d1c-8544-d8e0-c4c8-8ca413605750.htm">
+        <HelpTOCNode Title="BindSceneObject Method " Url="html/0714920b-a897-48df-a034-e310b8aa621e.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/a8d5ebbf-209f-8f6e-0ec7-683a13858f99.htm" />
+        <HelpTOCNode Title="Update Method " Url="html/da4e3393-50d7-6348-f101-71af2ac241bb.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="58142012-5bc8-419c-b878-0e0328266a08" Title="SerializableScene Class" Url="html/6ea1a990-a65c-2537-4253-119fde6a5d55.htm">
+      <HelpTOCNode Title="SerializableScene Constructor " Url="html/6928d5d4-0d77-8172-3052-e77aecc555dc.htm" />
+      <HelpTOCNode Id="3022c4f7-615b-49aa-b9c3-fd0fb9c39017" Title="SerializableScene Properties" Url="html/577760bd-112a-fd00-07d7-07f200941a7b.htm">
+        <HelpTOCNode Title="SavedSceneObjects Property " Url="html/1086395b-d139-e23f-b748-23541d5624f4.htm" />
+        <HelpTOCNode Title="SceneName Property " Url="html/983ad3e0-0571-0a1d-222d-d95cf85555fc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SerializableScene Methods" Url="html/8b241d08-14de-72e1-fbab-471e53f0d32d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d6136247-4b98-4185-b30f-1248b9e9df95" Title="SerializableTransform Structure" Url="html/35d54d7c-aa74-2de9-cf27-a3f890a71780.htm">
+      <HelpTOCNode Id="b9707122-4ef5-4b7d-ab89-9327b3424296" Title="SerializableTransform Properties" Url="html/c8178fad-99d0-1911-986c-204724af6bd1.htm">
+        <HelpTOCNode Title="LocalPosition Property " Url="html/de57e2de-3c86-4f86-9a63-4a666ad9afeb.htm" />
+        <HelpTOCNode Title="LocalRotation Property " Url="html/405412f2-9b7f-a393-1442-6043ef9b7504.htm" />
+        <HelpTOCNode Title="LocalScale Property " Url="html/5be87be6-ea19-c7f2-8971-135c6a955b42.htm" />
+        <HelpTOCNode Title="ParentId Property " Url="html/a9ddccc7-ff67-7ee5-f344-68c582b03ca7.htm" />
+        <HelpTOCNode Title="TransformID Property " Url="html/dfaacbad-ac5d-aeef-de17-8e97c91d9e7b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SerializableTransform Methods" Url="html/8f0568e1-5072-9d71-b22c-cac149eb6c7c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b736b35b-de1c-4981-81c6-932fe496ebf3" Title="SerializableVector3 Structure" Url="html/beaaa40b-775a-5b28-cb6f-211a18297b3b.htm">
+      <HelpTOCNode Title="SerializableVector3 Constructor " Url="html/96632443-e7e5-1489-4162-038a8baf2962.htm" />
+      <HelpTOCNode Id="39fa9fe7-cbb9-40e3-96d9-6d5af3c4f4a7" Title="SerializableVector3 Properties" Url="html/80c3bb2e-af0b-5ece-87eb-a4a06d46a6b6.htm">
+        <HelpTOCNode Title="X Property " Url="html/26a6cb29-7743-9715-b101-512d1fe8921e.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/29d4b79d-d495-2d8a-b5e5-80af0d7b5038.htm" />
+        <HelpTOCNode Title="Z Property " Url="html/d1f1ba19-6b1b-4707-5dd5-0177df00f173.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SerializableVector3 Methods" Url="html/2b64cc22-72c8-6ebe-871a-00467e04a944.htm" />
+      <HelpTOCNode Id="f13bce80-8172-4c95-9e77-5712e9885ee0" Title="SerializableVector3 Type Conversions" Url="html/611a42e6-7d69-93c0-5368-a81d6abfc597.htm">
+        <HelpTOCNode Id="849f46b4-51ff-460b-8f80-32ab8cf99868" Title="Implicit Conversion Operators" Url="html/904664b2-2053-885b-e48c-9f88a0fbf2c3.htm">
+          <HelpTOCNode Title="Implicit Conversion (Vector3 to SerializableVector3)" Url="html/fdffb40c-0ac3-f7be-b902-f2eb536d16a8.htm" />
+          <HelpTOCNode Title="Implicit Conversion (SerializableVector3 to Vector3)" Url="html/664effab-2e5c-60e1-9da2-5d9fd259b9b7.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ba2001b9-3605-49a9-a101-19006ef59443" Title="SerializableVector4 Structure" Url="html/044c021f-1c25-7876-7568-897290093ef2.htm">
+      <HelpTOCNode Title="SerializableVector4 Constructor " Url="html/4fe52119-ae00-928c-462b-69f57d7e1ccf.htm" />
+      <HelpTOCNode Id="4546e504-30f7-4309-b077-183fbc5af5ad" Title="SerializableVector4 Properties" Url="html/2dab9b88-d581-67c1-d109-ff80366c7ef9.htm">
+        <HelpTOCNode Title="W Property " Url="html/88f80c5f-c99d-75e6-b5e2-68effd37a526.htm" />
+        <HelpTOCNode Title="X Property " Url="html/ca575a98-9922-465b-46b9-655db8ec1e03.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/6c28d3c5-330a-0288-b7d6-90e2e7d39dc0.htm" />
+        <HelpTOCNode Title="Z Property " Url="html/01c2818a-96fa-9dd2-f9dd-3d425fc7cfe8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SerializableVector4 Methods" Url="html/01c90a01-00ea-7d52-3d88-5568975861b5.htm" />
+      <HelpTOCNode Id="5db86f8e-3fd9-4422-9515-5dccc2e2cd53" Title="SerializableVector4 Type Conversions" Url="html/64cc7bbf-6cd4-8fc7-1948-4674cc924476.htm">
+        <HelpTOCNode Id="a74cc5c8-512d-41ff-ac0e-30e87c3fd83b" Title="Implicit Conversion Operators" Url="html/343bc946-d497-7455-8272-a799a897b34a.htm">
+          <HelpTOCNode Title="Implicit Conversion (Vector4 to SerializableVector4)" Url="html/6b174f8f-1b08-188f-1e74-40c8ddeee1f1.htm" />
+          <HelpTOCNode Title="Implicit Conversion (SerializableVector4 to Vector4)" Url="html/9fbc947f-5ac2-79a9-09bb-82a528560b90.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3cb62f70-108f-4f4b-afc2-0deee2f75ea0" Title="SimpleMaterial Class" Url="html/0fc305d8-9e34-54ed-7bd5-aa7643c15638.htm">
+      <HelpTOCNode Title="SimpleMaterial Constructor " Url="html/d9206688-adca-ad9a-6b43-e3684dda7e50.htm" />
+      <HelpTOCNode Id="df942d2b-68ee-4680-a5f2-c555b257c5d4" Title="SimpleMaterial Properties" Url="html/28ef5cb3-1ad2-5888-2246-733f02e5eccd.htm">
+        <HelpTOCNode Title="PixelShaderData Property " Url="html/3323a7fa-6cff-73db-e691-f9f6207918ec.htm" />
+        <HelpTOCNode Title="PixelShaderEntryPoint Property " Url="html/1e73afe4-9242-c036-16a2-7823711a65a2.htm" />
+        <HelpTOCNode Title="PixelShaderPath Property " Url="html/369c2226-c1b3-b2d0-12af-9650365f62e7.htm" />
+        <HelpTOCNode Title="PixelShaderProfile Property " Url="html/7aa6c66f-228b-dae6-e63e-337a540223f0.htm" />
+        <HelpTOCNode Title="VertexShaderByteCode Property " Url="html/f51bb915-e2ca-b5a9-700f-4ea0c30cb9db.htm" />
+        <HelpTOCNode Title="VertexShaderData Property " Url="html/ebc17398-fe0b-8e2b-d895-382f8cb30458.htm" />
+        <HelpTOCNode Title="VertexShaderEntryPoint Property " Url="html/16da4670-a4c0-6b49-0619-fd1b6ca48f57.htm" />
+        <HelpTOCNode Title="VertexShaderPath Property " Url="html/0fb02c1c-4891-0dee-a533-c56414ccaeb1.htm" />
+        <HelpTOCNode Title="VertexShaderProfile Property " Url="html/8b8fd614-297a-0fd9-e5d7-cf7bfd69e699.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="01aa0727-b9f4-465d-9999-2ac4e538f397" Title="SimpleMaterial Methods" Url="html/7ae40760-8afa-6fd9-c42d-9159ebdb7b79.htm">
+        <HelpTOCNode Title="CompileShaders Method " Url="html/7fcd16c9-af29-fa16-8030-fbbed4226d21.htm" />
+        <HelpTOCNode Title="CreateConstantBuffers Method " Url="html/a53da4e1-1aea-9098-17af-85ca48255a58.htm" />
+        <HelpTOCNode Title="CreateInstance Method " Url="html/e042fd8e-9c43-a656-2a09-c75b1590790b.htm" />
+        <HelpTOCNode Title="CreateInstanceTyped Method " Url="html/1fd17d24-ca72-2c36-a2ab-81450b591018.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/17138ab2-91ae-5442-a15b-ccd6492850bf.htm" />
+        <HelpTOCNode Title="Initialize Method " Url="html/2510179a-0f91-04e6-2658-62ece9447ae9.htm" />
+        <HelpTOCNode Id="c005e765-9c12-48ab-8a23-8941a923ed79" Title="Render Method " Url="html/9c05e8a5-693e-eaf4-3cdc-ab0a4e8d1355.htm">
+          <HelpTOCNode Title="Render Method (SceneObject, Camera, Renderer)" Url="html/d677bbf0-e821-8f92-814e-f27465f99501.htm" />
+          <HelpTOCNode Title="Render Method (Model, Matrix, Camera, Renderer)" Url="html/692cdde0-27fc-22d3-2ba8-ef7027564e53.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SetMatrices Method " Url="html/a3820379-1ff1-70fb-80fc-9c76c1ef3ec9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ff56bd7e-6b8a-47aa-89a5-735de44e3084" Title="SimpleMaterial Fields" Url="html/bf3ef197-9cd7-4617-951f-48b4fd0a29d2.htm">
+        <HelpTOCNode Title="device Field" Url="html/c04b8b05-2f6b-1e48-7d7a-445b3fcdd522.htm" />
+        <HelpTOCNode Title="pixelConstantBuffer Field" Url="html/579a27c1-3b75-851d-07ee-fa4cfa559e2f.htm" />
+        <HelpTOCNode Title="pixelShader Field" Url="html/452b2086-cabf-362f-3b63-c356581441e5.htm" />
+        <HelpTOCNode Title="pixelShaderByteCode Field" Url="html/3402739d-07c4-e288-22bc-f70276fa4e90.htm" />
+        <HelpTOCNode Title="pixelShaderData Field" Url="html/93c30af5-4ac3-ff94-5bd7-3650af29cb48.htm" />
+        <HelpTOCNode Title="vertexConstantBuffer Field" Url="html/79cc28c0-33bf-ae9e-3402-bacc930e7ce0.htm" />
+        <HelpTOCNode Title="vertexShader Field" Url="html/e7952127-75a8-718d-728b-0c8f6773a7e1.htm" />
+        <HelpTOCNode Title="vertexShaderByteCode Field" Url="html/3f96f565-4526-6e96-0c26-89448681c3b7.htm" />
+        <HelpTOCNode Title="vertexShaderData Field" Url="html/799da2a9-0605-60d4-e63b-8ad82ced0eb4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="07ac726b-433d-47d2-be70-cd3ce92b7a7f" Title="SimpleMaterial.PixelShaderDataStruct Structure" Url="html/00bd5bf3-600c-ed45-d867-154c2554a589.htm">
+      <HelpTOCNode Id="ccc11f79-ccd0-470f-a0c9-9d1b544b43b0" Title="PixelShaderDataStruct Properties" Url="html/e4a5ae06-64d9-9479-7b10-fa5792426529.htm">
+        <HelpTOCNode Title="DiffuseColor Property " Url="html/ed41c468-44df-c9b5-d8f0-eb663d11de27.htm" />
+        <HelpTOCNode Title="EmissionColor Property " Url="html/1eee0d83-335f-8048-c3a4-7864c9237dcb.htm" />
+        <HelpTOCNode Title="LightPos Property " Url="html/58acada5-815e-d225-03bf-400db91a755b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PixelShaderDataStruct Methods" Url="html/298b1aa4-933b-edd9-3edd-4cfbe80d4e8d.htm" />
+      <HelpTOCNode Id="2998d85e-9218-4eb8-ae25-980c79326127" Title="PixelShaderDataStruct Fields" Url="html/8528decc-fa51-5ed2-3c06-6b7000b96108.htm">
+        <HelpTOCNode Title="diffuseColor Field" Url="html/fb50ddf9-aa38-330e-1b9f-d7c77b3aa0a9.htm" />
+        <HelpTOCNode Title="emissionColor Field" Url="html/e68ed04c-f2fc-3e14-b81b-68ee8be33d1c.htm" />
+        <HelpTOCNode Title="lightPos Field" Url="html/af0d4217-1074-da7d-e9be-f2950afb4e05.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="29d98ff1-683f-4dd7-b2ca-e4d8987ec51c" Title="SimpleMaterial.VertexShaderDataStruct Structure" Url="html/7daa303d-1c97-a96d-12aa-46cedbded1b0.htm">
+      <HelpTOCNode Title="VertexShaderDataStruct Methods" Url="html/cf08a3dd-3638-d249-4db5-f752044d392b.htm" />
+      <HelpTOCNode Id="dcbdbf16-0ab6-4520-b9dc-d90db8ad5018" Title="VertexShaderDataStruct Fields" Url="html/4c203079-7d17-39f6-6501-da60144a81fd.htm">
+        <HelpTOCNode Title="world Field" Url="html/92ec7ddd-58e7-5d94-72ae-1af52c700d87.htm" />
+        <HelpTOCNode Title="worldView Field" Url="html/ed63c6e1-60de-e40c-f9c9-89e3761a6a8d.htm" />
+        <HelpTOCNode Title="worldViewProj Field" Url="html/232a7fa8-5426-09cf-10d3-33093a1cd2d5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a151c1a2-75b6-455e-9fc8-f3561bf66f2f" Title="SimpleTransformAnimationComponent Class" Url="html/5532859f-bc5c-1d11-d5cf-df6777b0af44.htm">
+      <HelpTOCNode Title="SimpleTransformAnimationComponent Constructor " Url="html/1e0ff275-fd94-9bc7-4e50-3aab8d833188.htm" />
+      <HelpTOCNode Id="964faa81-940e-4f2a-9b35-fad46c67b12e" Title="SimpleTransformAnimationComponent Properties" Url="html/4d186e16-e082-10aa-52c6-d2f09614448e.htm">
+        <HelpTOCNode Title="MovementSpeed Property " Url="html/b2467bdc-cee0-9008-c0fd-58266c386aa0.htm" />
+        <HelpTOCNode Title="RotationSpeed Property " Url="html/baf6a836-43ed-da9c-efb9-9a8a48ca29de.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9e949e3f-4787-473a-bf08-7c6b8ade5c6b" Title="SimpleTransformAnimationComponent Methods" Url="html/6167ed82-c475-d4ae-9aa9-2085acacb2f5.htm">
+        <HelpTOCNode Title="Update Method " Url="html/43d1caf6-6048-e782-487a-3d7570db96a4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="faece733-6f32-4c4c-ad2c-6a93c479a2df" Title="Time Class" Url="html/8a612532-4085-b00f-8c87-c539c836a11e.htm">
+      <HelpTOCNode Id="6d330f72-2f51-4e81-bfab-f69e30ce9f2e" Title="Time Properties" Url="html/cfbd91a8-4933-46cf-531c-b69fbf7c7a37.htm">
+        <HelpTOCNode Title="DeltaTime Property " Url="html/f7e4493f-1f95-a08e-2ac1-9029b27b840c.htm" />
+        <HelpTOCNode Title="Elapsed Property " Url="html/7f19d896-c5ab-c2bf-831b-5e8434a905c4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="21678bcd-f62c-4975-9caf-2d219a4cc28a" Title="Time Methods" Url="html/74b4e09d-896f-97f1-bc9d-53754b8aee8a.htm">
+        <HelpTOCNode Title="NextFrame Method " Url="html/3ebdc435-7257-0390-64e5-c30c1a812b41.htm" />
+        <HelpTOCNode Title="ResetTime Method " Url="html/774901cd-1db7-bbd1-50d3-243bd7315b4a.htm" />
+        <HelpTOCNode Title="Start Method " Url="html/77f4beb4-7e16-b85d-6706-e3f089d4dff9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="df77d938-998e-48db-a887-80d7beafaebb" Title="Transform Class" Url="html/6cb64a56-7da0-cc23-02c2-eae82e8cf1c5.htm">
+      <HelpTOCNode Id="2f2e0896-9572-42b4-b338-17538a7a620f" Title="Transform Constructor " Url="html/74fb3311-e71d-3c65-3f8b-d2affc35a08f.htm">
+        <HelpTOCNode Title="Transform Constructor " Url="html/9c6de227-7f14-7d34-e899-be9cad39140a.htm" />
+        <HelpTOCNode Title="Transform Constructor (SerializableTransform)" Url="html/bfa1b262-cfa1-8263-014f-40227b195fcf.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="69b485bf-1a2c-4566-84bc-41791f3486f5" Title="Transform Properties" Url="html/e9a445d7-8d09-6e80-028f-797e44515322.htm">
+        <HelpTOCNode Title="Id Property " Url="html/64d5dbd1-7621-0ace-6b24-45184de5c2ee.htm" />
+        <HelpTOCNode Title="IsDirty Property " Url="html/7313e442-7806-c3ed-e73a-96d19692fb0e.htm" />
+        <HelpTOCNode Title="LocalPosition Property " Url="html/a30b9dad-098f-9b62-786f-e41c94f38a73.htm" />
+        <HelpTOCNode Title="LocalPositionX Property " Url="html/68136cb5-4584-fd6c-696d-90ab9d814bbc.htm" />
+        <HelpTOCNode Title="LocalPositionY Property " Url="html/06dd9502-b62b-9e82-09bb-814dc195c311.htm" />
+        <HelpTOCNode Title="LocalPositionZ Property " Url="html/b578a95c-7a6d-bed7-71ed-55f67c2ae938.htm" />
+        <HelpTOCNode Title="LocalRotation Property " Url="html/0919ecc0-e011-e5b2-5fc4-7e5d9520a539.htm" />
+        <HelpTOCNode Title="LocalRotationX Property " Url="html/3bc19e5b-430e-7aa6-e4d1-dbe7b863224e.htm" />
+        <HelpTOCNode Title="LocalRotationY Property " Url="html/567d694e-f9cb-0c65-2955-be53722bf3d9.htm" />
+        <HelpTOCNode Title="LocalRotationZ Property " Url="html/f76e1961-fe5b-cb18-d726-f46782dfb7c6.htm" />
+        <HelpTOCNode Title="LocalScale Property " Url="html/bbed4d3c-376a-93b9-38d9-bcae5b2f3610.htm" />
+        <HelpTOCNode Title="LocalScaleX Property " Url="html/9870f253-526a-cd15-f8d2-1b329dac9b7d.htm" />
+        <HelpTOCNode Title="LocalScaleY Property " Url="html/79780048-7bd7-a0c4-1651-0f30c2855bc6.htm" />
+        <HelpTOCNode Title="LocalScaleZ Property " Url="html/d2d5f518-2b81-1711-7202-c495ade32a25.htm" />
+        <HelpTOCNode Title="TransformMatrix Property " Url="html/f81b8cac-38fa-77c9-055b-3be4c9b64d97.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="02416290-ec0c-4ea0-9703-a6e1d8cf3ace" Title="Transform Methods" Url="html/e1c7bd42-954b-3029-c1d3-bb2b6928c5f2.htm">
+        <HelpTOCNode Title="GetSerializableTransform Method " Url="html/afb643cd-cf8e-36e2-e007-468d4e718fbf.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7edcd77f-103c-4b23-a8a9-a24c66c4c958" Title="Transform Fields" Url="html/41e84a3f-54c8-5915-320e-6a3bbc495cc3.htm">
+        <HelpTOCNode Title="parent Field" Url="html/5083c22f-40cb-087f-35c7-9836e913e396.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
