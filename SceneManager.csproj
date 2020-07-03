@@ -132,48 +132,6 @@
     <Compile Include="Systems\Time.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\sponza\00_skap.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sponza\01_STUB.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sponza\01_St_kp.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sponza\01_S_ba.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sponza\01_S_kap.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sponza\KAMEN-stup.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sponza\KAMEN.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sponza\prozor1.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sponza\reljef.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sponza\sky.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sponza\sp_luk.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sponza\vrata_ko.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sponza\vrata_kr.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sponza\x01_st.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Assimp32.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -190,9 +148,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Assets\Planets\sphere.obj">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Assets\sponza\sponza.3DS">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ClassDiagram1.cd" />
