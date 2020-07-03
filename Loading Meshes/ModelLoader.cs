@@ -158,15 +158,6 @@ namespace AssimpWrapper
 					ModelMesh modelMesh = new ModelMesh();
 					model.AddMesh(ref modelMesh);
 
-					//if mesh has a material extract the diffuse texture, if present
-					Material material = scene.Materials[mesh.MaterialIndex];
-					if (material != null && material.GetTextureCount(TextureType.Diffuse) > 0)
-					{
-						TextureSlot texture = material.GetTexture(TextureType.Diffuse, 0);
-						//create new texture for mesh
-						modelMesh.AddTextureDiffuse(device, m_modelPath + "\\" + texture.FilePath);
-					}
-
 					//determine the elements in the vertex
 					bool hasTexCoords = mesh.HasTextureCoords(0);
 					bool hasColors = mesh.HasVertexColors(0);

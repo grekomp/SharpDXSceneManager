@@ -1,0 +1,1003 @@
+{
+  "SceneName": "Unnamed Scene",
+  "SavedSceneObjects": [
+    {
+      "ObjectID": "a3b162e6-2294-401f-86a5-28d2ded1f875",
+      "ModelPath": "Assets\\Planets\\sphere.obj",
+      "Material": {
+        "VertexShaderPath": "Shaders.fx",
+        "VertexShaderEntryPoint": "VS",
+        "VertexShaderProfile": "vs_5_0",
+        "PixelShaderPath": "Shaders.fx",
+        "PixelShaderEntryPoint": "PS",
+        "PixelShaderProfile": "ps_5_0",
+        "PixelShaderData": {
+          "LightPos": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "W": 1
+          },
+          "DiffuseColor": {
+            "X": 0.920000017,
+            "Y": 0.720000029,
+            "Z": 0.200000003,
+            "W": 1
+          },
+          "EmissionColor": {
+            "X": 0.920000017,
+            "Y": 0.800000012,
+            "Z": 0.200000003,
+            "W": 1
+          }
+        }
+      },
+      "Transform": {
+        "TransformID": "b713947e-8c4d-4826-b660-15516bc2f6f2",
+        "LocalPosition": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "ParentId": null
+      },
+      "AnimationComponent": null,
+      "Components": []
+    },
+    {
+      "ObjectID": "3258b57d-9ffa-4a8b-9615-a006c6f65d9d",
+      "ModelPath": "",
+      "Material": null,
+      "Transform": {
+        "TransformID": "fe465d70-e19c-4940-ae01-179aa281a20e",
+        "LocalPosition": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 3883.67944,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "ParentId": null
+      },
+      "AnimationComponent": {
+        "RotationSpeed": {
+          "X": 40,
+          "Y": 0,
+          "Z": 0
+        },
+        "MovementSpeed": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        }
+      },
+      "Components": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ObjectID": "3d90f323-313d-4f6f-8eec-998ae40a2116",
+      "ModelPath": "Assets\\Planets\\sphere.obj",
+      "Material": {
+        "VertexShaderPath": "Shaders.fx",
+        "VertexShaderEntryPoint": "VS",
+        "VertexShaderProfile": "vs_5_0",
+        "PixelShaderPath": "Shaders.fx",
+        "PixelShaderEntryPoint": "PS",
+        "PixelShaderProfile": "ps_5_0",
+        "PixelShaderData": {
+          "LightPos": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "W": 1
+          },
+          "DiffuseColor": {
+            "X": 0.699999988,
+            "Y": 0.600000024,
+            "Z": 0.5,
+            "W": 1
+          },
+          "EmissionColor": {
+            "X": 0.100000001,
+            "Y": 0.100000001,
+            "Z": 0.100000001,
+            "W": 1
+          }
+        }
+      },
+      "Transform": {
+        "TransformID": "57e6d27c-ccd4-4610-9582-39194127d11d",
+        "LocalPosition": {
+          "X": 0.540000021,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 0.0759999976,
+          "Y": 0.0759999976,
+          "Z": 0.0759999976
+        },
+        "ParentId": "fe465d70-e19c-4940-ae01-179aa281a20e"
+      },
+      "AnimationComponent": null,
+      "Components": []
+    },
+    {
+      "ObjectID": "b7d64069-64be-43c0-9994-93c5d765609c",
+      "ModelPath": "",
+      "Material": null,
+      "Transform": {
+        "TransformID": "75855da7-238f-42c2-8a4f-a12f2e6c8e8b",
+        "LocalPosition": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 1261.25696,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "ParentId": null
+      },
+      "AnimationComponent": {
+        "RotationSpeed": {
+          "X": 13,
+          "Y": 0,
+          "Z": 0
+        },
+        "MovementSpeed": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        }
+      },
+      "Components": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ObjectID": "51e25b08-bc46-4b0f-9e6f-4773ff6753c1",
+      "ModelPath": "Assets\\Planets\\sphere.obj",
+      "Material": {
+        "VertexShaderPath": "Shaders.fx",
+        "VertexShaderEntryPoint": "VS",
+        "VertexShaderProfile": "vs_5_0",
+        "PixelShaderPath": "Shaders.fx",
+        "PixelShaderEntryPoint": "PS",
+        "PixelShaderProfile": "ps_5_0",
+        "PixelShaderData": {
+          "LightPos": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "W": 1
+          },
+          "DiffuseColor": {
+            "X": 0.959999979,
+            "Y": 0.479999989,
+            "Z": 0.0399999991,
+            "W": 1
+          },
+          "EmissionColor": {
+            "X": 0.100000001,
+            "Y": 0.100000001,
+            "Z": 0.100000001,
+            "W": 1
+          }
+        }
+      },
+      "Transform": {
+        "TransformID": "43f5b003-73e2-419d-90e1-03d04caec808",
+        "LocalPosition": {
+          "X": 1.005,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 0.189999998,
+          "Y": 0.189999998,
+          "Z": 0.189999998
+        },
+        "ParentId": "75855da7-238f-42c2-8a4f-a12f2e6c8e8b"
+      },
+      "AnimationComponent": null,
+      "Components": []
+    },
+    {
+      "ObjectID": "8c6ef3e0-2150-466c-9a39-23d559fdce89",
+      "ModelPath": "",
+      "Material": null,
+      "Transform": {
+        "TransformID": "b9d1edd7-4479-4a72-9f39-b3c2b9e92b5d",
+        "LocalPosition": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 970.919861,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "ParentId": null
+      },
+      "AnimationComponent": {
+        "RotationSpeed": {
+          "X": 10,
+          "Y": 0,
+          "Z": 0
+        },
+        "MovementSpeed": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        }
+      },
+      "Components": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ObjectID": "bf221d71-a6c7-4b75-86d1-b4ad20c163ff",
+      "ModelPath": "Assets\\Planets\\sphere.obj",
+      "Material": {
+        "VertexShaderPath": "Shaders.fx",
+        "VertexShaderEntryPoint": "VS",
+        "VertexShaderProfile": "vs_5_0",
+        "PixelShaderPath": "Shaders.fx",
+        "PixelShaderEntryPoint": "PS",
+        "PixelShaderProfile": "ps_5_0",
+        "PixelShaderData": {
+          "LightPos": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "W": 1
+          },
+          "DiffuseColor": {
+            "X": 0.200000003,
+            "Y": 0.200000003,
+            "Z": 0.800000012,
+            "W": 1
+          },
+          "EmissionColor": {
+            "X": 0.100000001,
+            "Y": 0.100000001,
+            "Z": 0.100000001,
+            "W": 1
+          }
+        }
+      },
+      "Transform": {
+        "TransformID": "0fa0e643-a92b-4083-a9d3-7b507a21b93b",
+        "LocalPosition": {
+          "X": 1.39499998,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 0.200000003,
+          "Y": 0.200000003,
+          "Z": 0.200000003
+        },
+        "ParentId": "b9d1edd7-4479-4a72-9f39-b3c2b9e92b5d"
+      },
+      "AnimationComponent": null,
+      "Components": []
+    },
+    {
+      "ObjectID": "50ebb5b2-28df-4413-940f-5cb8c5d241f8",
+      "ModelPath": "",
+      "Material": null,
+      "Transform": {
+        "TransformID": "5dc7e76a-7e06-4b83-96ee-c8cff4288e71",
+        "LocalPosition": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 9700.25586,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "ParentId": "0fa0e643-a92b-4083-a9d3-7b507a21b93b"
+      },
+      "AnimationComponent": {
+        "RotationSpeed": {
+          "X": 100,
+          "Y": 0,
+          "Z": 0
+        },
+        "MovementSpeed": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        }
+      },
+      "Components": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ObjectID": "02c10b5d-c08b-4d12-b2d5-b04cfa169914",
+      "ModelPath": "Assets\\Planets\\sphere.obj",
+      "Material": {
+        "VertexShaderPath": "Shaders.fx",
+        "VertexShaderEntryPoint": "VS",
+        "VertexShaderProfile": "vs_5_0",
+        "PixelShaderPath": "Shaders.fx",
+        "PixelShaderEntryPoint": "PS",
+        "PixelShaderProfile": "ps_5_0",
+        "PixelShaderData": {
+          "LightPos": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "W": 1
+          },
+          "DiffuseColor": {
+            "X": 0.400000006,
+            "Y": 0.400000006,
+            "Z": 0.400000006,
+            "W": 1
+          },
+          "EmissionColor": {
+            "X": 0.100000001,
+            "Y": 0.100000001,
+            "Z": 0.100000001,
+            "W": 1
+          }
+        }
+      },
+      "Transform": {
+        "TransformID": "11180d77-8064-4c08-a927-9f76be54c681",
+        "LocalPosition": {
+          "X": 1.5,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 0.160000011,
+          "Y": 0.160000011,
+          "Z": 0.160000011
+        },
+        "ParentId": "5dc7e76a-7e06-4b83-96ee-c8cff4288e71"
+      },
+      "AnimationComponent": null,
+      "Components": []
+    },
+    {
+      "ObjectID": "d6d42c4e-a94f-425f-a7be-30b966a199d7",
+      "ModelPath": "",
+      "Material": null,
+      "Transform": {
+        "TransformID": "ca1d6b89-9c22-4c88-bb4a-7b755f684b08",
+        "LocalPosition": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 436.374664,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "ParentId": null
+      },
+      "AnimationComponent": {
+        "RotationSpeed": {
+          "X": 4.5,
+          "Y": 0,
+          "Z": 0
+        },
+        "MovementSpeed": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        }
+      },
+      "Components": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ObjectID": "77529d91-01fe-4f0d-89f0-a9aa7a1bfe97",
+      "ModelPath": "Assets\\Planets\\sphere.obj",
+      "Material": {
+        "VertexShaderPath": "Shaders.fx",
+        "VertexShaderEntryPoint": "VS",
+        "VertexShaderProfile": "vs_5_0",
+        "PixelShaderPath": "Shaders.fx",
+        "PixelShaderEntryPoint": "PS",
+        "PixelShaderProfile": "ps_5_0",
+        "PixelShaderData": {
+          "LightPos": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "W": 1
+          },
+          "DiffuseColor": {
+            "X": 0.730000019,
+            "Y": 0.129999995,
+            "Z": 0.0399999991,
+            "W": 1
+          },
+          "EmissionColor": {
+            "X": 0.100000001,
+            "Y": 0.100000001,
+            "Z": 0.100000001,
+            "W": 1
+          }
+        }
+      },
+      "Transform": {
+        "TransformID": "06f1d342-027a-495c-a8b0-0850fad4f102",
+        "LocalPosition": {
+          "X": 2.11500001,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 0.105999999,
+          "Y": 0.105999999,
+          "Z": 0.105999999
+        },
+        "ParentId": "ca1d6b89-9c22-4c88-bb4a-7b755f684b08"
+      },
+      "AnimationComponent": null,
+      "Components": []
+    },
+    {
+      "ObjectID": "ec671c41-3dae-42e8-aaee-22ff9234f232",
+      "ModelPath": "",
+      "Material": null,
+      "Transform": {
+        "TransformID": "c5aefc95-ef61-44d7-b475-26be7c21e33d",
+        "LocalPosition": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 81.4808502,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "ParentId": null
+      },
+      "AnimationComponent": {
+        "RotationSpeed": {
+          "X": 0.840336144,
+          "Y": 0,
+          "Z": 0
+        },
+        "MovementSpeed": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        }
+      },
+      "Components": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ObjectID": "5010df3d-50b1-4748-852a-9b9de610dcb5",
+      "ModelPath": "Assets\\Planets\\sphere.obj",
+      "Material": {
+        "VertexShaderPath": "Shaders.fx",
+        "VertexShaderEntryPoint": "VS",
+        "VertexShaderProfile": "vs_5_0",
+        "PixelShaderPath": "Shaders.fx",
+        "PixelShaderEntryPoint": "PS",
+        "PixelShaderProfile": "ps_5_0",
+        "PixelShaderData": {
+          "LightPos": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "W": 1
+          },
+          "DiffuseColor": {
+            "X": 0.769999981,
+            "Y": 0.660000026,
+            "Z": 0.449999988,
+            "W": 1
+          },
+          "EmissionColor": {
+            "X": 0.100000001,
+            "Y": 0.100000001,
+            "Z": 0.100000001,
+            "W": 1
+          }
+        }
+      },
+      "Transform": {
+        "TransformID": "72f77cfd-6ddd-4ba6-917b-a8a3e03333b4",
+        "LocalPosition": {
+          "X": 3.89999986,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 2.22399998,
+          "Y": 2.22399998,
+          "Z": 2.22399998
+        },
+        "ParentId": "c5aefc95-ef61-44d7-b475-26be7c21e33d"
+      },
+      "AnimationComponent": null,
+      "Components": []
+    },
+    {
+      "ObjectID": "1a140769-e690-47f6-8a3f-3f277fe26289",
+      "ModelPath": "",
+      "Material": null,
+      "Transform": {
+        "TransformID": "c26d1d7a-2dfc-4bd9-be9b-6afc317cf724",
+        "LocalPosition": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 32.9121246,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "ParentId": null
+      },
+      "AnimationComponent": {
+        "RotationSpeed": {
+          "X": 0.338983059,
+          "Y": 0,
+          "Z": 0
+        },
+        "MovementSpeed": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        }
+      },
+      "Components": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ObjectID": "5f640a3c-e5a3-4193-8201-3e60a79e277d",
+      "ModelPath": "Assets\\Planets\\sphere.obj",
+      "Material": {
+        "VertexShaderPath": "Shaders.fx",
+        "VertexShaderEntryPoint": "VS",
+        "VertexShaderProfile": "vs_5_0",
+        "PixelShaderPath": "Shaders.fx",
+        "PixelShaderEntryPoint": "PS",
+        "PixelShaderProfile": "ps_5_0",
+        "PixelShaderData": {
+          "LightPos": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "W": 1
+          },
+          "DiffuseColor": {
+            "X": 0.680000007,
+            "Y": 0.540000021,
+            "Z": 0.360000014,
+            "W": 1
+          },
+          "EmissionColor": {
+            "X": 0.100000001,
+            "Y": 0.100000001,
+            "Z": 0.100000001,
+            "W": 1
+          }
+        }
+      },
+      "Transform": {
+        "TransformID": "3d705ce2-c3da-4a8f-93c9-ed5f3003c311",
+        "LocalPosition": {
+          "X": 5.55000019,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 1.88999999,
+          "Y": 1.88999999,
+          "Z": 1.88999999
+        },
+        "ParentId": "c26d1d7a-2dfc-4bd9-be9b-6afc317cf724"
+      },
+      "AnimationComponent": null,
+      "Components": []
+    },
+    {
+      "ObjectID": "0b5af7bb-3026-46a2-b6f7-05f29f75b1c1",
+      "ModelPath": "",
+      "Material": null,
+      "Transform": {
+        "TransformID": "ef5c4693-d811-48eb-9219-3aac5ea0d842",
+        "LocalPosition": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 11.560214,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "ParentId": null
+      },
+      "AnimationComponent": {
+        "RotationSpeed": {
+          "X": 0.119047619,
+          "Y": 0,
+          "Z": 0
+        },
+        "MovementSpeed": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        }
+      },
+      "Components": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ObjectID": "895ae242-b451-4c43-b60b-01287cf996c5",
+      "ModelPath": "Assets\\Planets\\sphere.obj",
+      "Material": {
+        "VertexShaderPath": "Shaders.fx",
+        "VertexShaderEntryPoint": "VS",
+        "VertexShaderProfile": "vs_5_0",
+        "PixelShaderPath": "Shaders.fx",
+        "PixelShaderEntryPoint": "PS",
+        "PixelShaderProfile": "ps_5_0",
+        "PixelShaderData": {
+          "LightPos": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "W": 1
+          },
+          "DiffuseColor": {
+            "X": 0.550000012,
+            "Y": 0.829999983,
+            "Z": 0.970000029,
+            "W": 1
+          },
+          "EmissionColor": {
+            "X": 0.100000001,
+            "Y": 0.100000001,
+            "Z": 0.100000001,
+            "W": 1
+          }
+        }
+      },
+      "Transform": {
+        "TransformID": "50c7ccfd-a6f4-49bd-adf1-79d3f90c9654",
+        "LocalPosition": {
+          "X": 6.60000038,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 0.800000012,
+          "Y": 0.800000012,
+          "Z": 0.800000012
+        },
+        "ParentId": "ef5c4693-d811-48eb-9219-3aac5ea0d842"
+      },
+      "AnimationComponent": null,
+      "Components": []
+    },
+    {
+      "ObjectID": "ee1611a0-bfec-479c-bfda-46f2b437c385",
+      "ModelPath": "",
+      "Material": null,
+      "Transform": {
+        "TransformID": "e516c3f7-4f3a-41bb-b35e-1fb8cf6cd158",
+        "LocalPosition": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 5.87832355,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "ParentId": null
+      },
+      "AnimationComponent": {
+        "RotationSpeed": {
+          "X": 0.0606060587,
+          "Y": 0,
+          "Z": 0
+        },
+        "MovementSpeed": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        }
+      },
+      "Components": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ObjectID": "137a4596-e6b3-4a79-acff-dcb2ba9fe7ce",
+      "ModelPath": "Assets\\Planets\\sphere.obj",
+      "Material": {
+        "VertexShaderPath": "Shaders.fx",
+        "VertexShaderEntryPoint": "VS",
+        "VertexShaderProfile": "vs_5_0",
+        "PixelShaderPath": "Shaders.fx",
+        "PixelShaderEntryPoint": "PS",
+        "PixelShaderProfile": "ps_5_0",
+        "PixelShaderData": {
+          "LightPos": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "W": 1
+          },
+          "DiffuseColor": {
+            "X": 0.379999995,
+            "Y": 0.5,
+            "Z": 0.829999983,
+            "W": 1
+          },
+          "EmissionColor": {
+            "X": 0.100000001,
+            "Y": 0.100000001,
+            "Z": 0.100000001,
+            "W": 1
+          }
+        }
+      },
+      "Transform": {
+        "TransformID": "98869c8a-b2fd-4704-ae43-c591cdb3389c",
+        "LocalPosition": {
+          "X": 7.79999971,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalRotation": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "LocalScale": {
+          "X": 0.776000023,
+          "Y": 0.776000023,
+          "Z": 0.776000023
+        },
+        "ParentId": "e516c3f7-4f3a-41bb-b35e-1fb8cf6cd158"
+      },
+      "AnimationComponent": null,
+      "Components": []
+    }
+  ]
+}

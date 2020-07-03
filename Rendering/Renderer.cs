@@ -2,6 +2,7 @@
 using SharpDX.Direct3D;
 using SharpDX.Direct3D11;
 using SharpDX.DXGI;
+using SharpDX.Mathematics.Interop;
 using SharpDX.Windows;
 using System;
 using System.Collections.Generic;
@@ -112,7 +113,16 @@ namespace SceneManager
 			});
 			depthView = new DepthStencilView(device, depthBuffer);
 
-			context.Rasterizer.SetViewports(new Viewport(0, 0, form.Width, form.Height, 0.0f, 1.0f));
+			var viewport = new RawViewportF();
+			viewport.Width = form.Width;
+			viewport.Height = form.Height;
+			viewport.X = 0;
+			viewport.Y = 0;
+			viewport.MinDepth = 0f;
+			viewport.MaxDepth = 1f;
+
+
+			context.Rasterizer.SetViewport(viewport);
 			context.OutputMerger.SetTargets(depthView, renderView);
 		}
 		#endregion
